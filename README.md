@@ -2,4 +2,4 @@
 
 Notes that I took while learning [the-Cherno's C-Plus-Plus courses](https://www.youtube.com/watch?v=18c3MTX0PK0&t=26s) on Yutube.
 
-44% [███████████ ]
+Progress: 44% [███████████&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
