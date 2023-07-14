@@ -91,4 +91,4 @@ int main()
 ```cpp
 Log() = delete;
 ```
-Kauai区域独爱默认构造函数
+删除默认构造函数
