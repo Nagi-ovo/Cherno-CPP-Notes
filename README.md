@@ -50,10 +50,10 @@ This README will be regularly updated along with my learning progress in the cou
 
 ## 📚 Course Progress 📚
 
-Current progress: 60% 📈
+Current progress: 90% 📈
 
 ```progress
-███████░░░░░░░░░░
+█████████░
 ```
 
 ---
