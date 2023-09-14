@@ -1,4 +1,4 @@
-# 📘 C++ 学习笔记 | The Cherno's C++ Course Notes 📘
+# 📘 The Cherno's C++ Course Notes 📘
 
 这个项目包含我在学习 [the-Cherno 的 C++ 课程](https://www.youtube.com/watch?v=18c3MTX0PK0&t=26s) 时所记的笔记。我分享出来希望对你也有帮助。🚀
 

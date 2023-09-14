@@ -57,4 +57,4 @@ extra_css:
 
 nav:
   - 前言: 'README.md'
-  - 05 C++是怎样工作的: '1-50\05 How C++ Works.md'
+  - 05 C++是怎样工作的: '1-50/05 How C++ Works.md'
