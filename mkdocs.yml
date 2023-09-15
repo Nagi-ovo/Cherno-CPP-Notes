@@ -82,7 +82,7 @@ nav:
   - 27 C++继承: '1-50/27 Inheritance in C++.md'
   - 28 C++虚函数: '1-50/28 Virtual Functions in C++.md'
   - 29 C++接口(纯虚函数): '1-50/29 Interfaces in C++ (Pure Virtual Functions).md'
-  - 30 C++可见性: '1-50/29 Interfaces in C++ (Pure Virtual Functions).md'
+  - 30 C++可见性: '1-50/30 Visibility in C++.md'
   - 31 C++数组: '1-50/31 Arrays in C++.md'
   - 32 C++字符串: '1-50/32 How Strings Work in C++ (and how to use them).md'
   - 33 C++字符串字面量: '1-50/33 String Literals in C++.md'
