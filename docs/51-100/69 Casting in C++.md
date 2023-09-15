@@ -155,6 +155,7 @@ AnotherClass* ac = dynamic_cast<AnotherClass*>(base);
 这种类型检查的能力是`dynamic_cast`的一个重要特性，它可以在运行时保护我们免于执行不安全的类型转换。这就是为什么`ac`是 null 的原因。
 
 改为 Derived 类后，这个指针就是有效的了，因为这个转换是成功的。
+
 ![](./storage%20bag/Pasted%20image%2020230727163921.png)
 
 这与运行时类型信息*RTTI*(runtime type information)紧密联系。

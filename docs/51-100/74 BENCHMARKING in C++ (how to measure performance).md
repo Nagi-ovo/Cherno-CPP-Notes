@@ -111,8 +111,11 @@ int main()
 ```
 
 测量两次`shared_ptr`和`unique_ptr`的性能对比：
+
 ![](./storage%20bag/Pasted%20image%2020230731163728.png)
+
 ![](./storage%20bag/Pasted%20image%2020230731163913.png)
+
 和我们所料的差不多，`unique_ptr`比`shared_ptr`花的时间少，但是`make_shared`和`new`所差的时间差不多。这里有件很重要的事，我们实际上是在 Debug 模式下分析的，因为它有很多额外的安全措施，需要时间而对测量性能不是很好。
 
 切换到 Release 模式，可以发现`make_shared`明显比`new`快：

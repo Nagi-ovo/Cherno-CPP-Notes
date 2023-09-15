@@ -83,9 +83,13 @@ Player* p1 = dynamic_cast<Player*>(actuallyPlayer);
 2、其次，`dynamic_cast`也需要时间，因为我们需要检查类型信息是否匹配，这个实体是敌人还是玩家，是什么类型的？当我们使用它的时候，必须在**运行时**进行验证，它确实增加了开销。
 
 可以在 VS 中关掉 RTTI：
+
 ![](./storage%20bag/Pasted%20image%2020230729202545.png)
+
 运行代码：
+
 ![](./storage%20bag/Pasted%20image%2020230729202625.png)
+
 Output 报错：
 
 ```text

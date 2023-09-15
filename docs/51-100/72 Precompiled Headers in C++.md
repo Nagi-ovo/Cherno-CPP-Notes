@@ -58,6 +58,7 @@ Measure-Command { g++ -std=c++11 Main.cpp }
 ```
 
 ![](./storage%20bag/Pasted%20image%2020230729142217.png)
+
 创建预编译文件：
 
 ```PowerShell
@@ -69,6 +70,7 @@ g++ -std=c++11 pch.h
 ![](./storage%20bag/Pasted%20image%2020230729142104.png)
 
 删掉 a.exe，相当于 clean build，再计时：
+
 ![](./storage%20bag/Pasted%20image%2020230729142132.png)
 
 可以发现快了六倍左右。
