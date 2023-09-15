@@ -49,7 +49,7 @@ int main()
 }
 ```
 
-这里`result`看起来有点难读，如果在Java这样的语言中这是你唯一的方法。不过再C++中我们有运算符重载，这意味着我们可以利用这些运算符，并定义我们自己的运算符。
+这里`result`看起来有点难读，如果在 Java 这样的语言中这是你唯一的方法。不过再 C++中我们有运算符重载，这意味着我们可以利用这些运算符，并定义我们自己的运算符。
 
 ```cpp
 	Vector2 Add(const Vector2& other) const
@@ -66,7 +66,7 @@ int main()
 	{
 		return  Vector2(x * other.x, y * other.y);
 	}
-	
+
 	Vector2 operator*(const Vector2& other)const
 	{
 		return Multiply(other);
@@ -80,18 +80,19 @@ int main()
 	Vector2 powerup(1.1f, 1.1f);
 
 	Vector2 result = position + speed * powerup;
-	
+
 	std::cin.get();
 }
 ```
 
 ## 3. 左移运算符
+
 ```cpp
-std::cout << 
+std::cout <<
 ```
 
 我们这里不能直接输出，因为这个运算符没有重载
-![](Pasted%20image%2020230709144432.png)
+![](./storage%20bag/Pasted%20image%2020230709144432.png)
 
 ```cpp
 std::ostream& operator<<(std::ostream& stream,const Vector2& other)

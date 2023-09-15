@@ -1,18 +1,20 @@
 构造函数初始化列表，是我们在构造函数中初始化类成员的一种方式。当我们编写类并向这个类添加成员的时候，通常需要用某种方式对这些成员进行初始化，这一般发生在构造函数中，我们有两种方法可以再构造函数中初始化类成员。
+
 ## 1. 构造函数初始化
 
 ### 1. 一般方法
+
 ```cpp
 #include <iostream>
 #include <string>
-#define LOG(x) std::cout << x << std::endl; 
+#define LOG(x) std::cout << x << std::endl;
 
 class Entity
 {
 private:
 	std::string m_Name;
 public:
-	Entity()    //Entity entity1; 调用默认构造函数，默认使用 "Unknown" 作为名称 
+	Entity()    //Entity entity1; 调用默认构造函数，默认使用 "Unknown" 作为名称
 	{
 		m_Name = "Unknown";
 	}
@@ -29,7 +31,7 @@ int main()
 {
 	Entity e;
 	LOG(e.GetName())           // "Unknown"
-	Entity e1("Cherno"); 
+	Entity e1("Cherno");
 	LOG(e1.GetName())          // "Cherno"
 	std::cin.get();
 }
@@ -73,9 +75,10 @@ int main()
 
 #### 为什么要用这个？
 
-代码风格原因，就是如果变量多起来的话，写在list里会让我们的构造函数代码非常干净而且容易阅读。
+代码风格原因，就是如果变量多起来的话，写在 list 里会让我们的构造函数代码非常干净而且容易阅读。
 
 功能上的区别，这个区别特定的作用在类上。
+
 ```cpp
 Entity()
 	:  x(0),y(0),z(0)
@@ -84,6 +87,7 @@ Entity()
 	//相当于 std::string("Unknown");
 }
 ```
+
 你创建了两个字符串，其中一个直接被抛弃了，这是性能浪费
 
 ```cpp
@@ -130,15 +134,17 @@ int main()
 }
 ```
 
-这里创建了两个Entity，一个是在`private:Example m_Example；`创建的，另一个是`m_Example = Example(8);`，在这里创建了一个新的Example对象，然后赋值给了m_Example(old one)，覆盖造成性能浪费。
+这里创建了两个 Entity，一个是在`private:Example m_Example；`创建的，另一个是`m_Example = Example(8);`，在这里创建了一个新的 Example 对象，然后赋值给了 m_Example(old one)，覆盖造成性能浪费。
 
 但是如果改成移动到初始化列表中：
+
 ```cpp
 Entity()
-	: m_Example(8)   
+	: m_Example(8)
 	// : m_Example(Example(8))
 {
 	m_Name = std::string("Unknown");
 }
 ```
+
 这样就只会创建一个对象。所以你应该到处使用成员初始化列表，绝对没有不适用它们的理由

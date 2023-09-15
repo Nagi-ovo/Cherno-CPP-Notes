@@ -46,15 +46,17 @@
 ### 2.2 Visual Studio 相关
 
 ![](./storage%20bag/Pasted%20image%2020230621232703.png)
-配置*Configuration*是如何 build 一个项目的一系列规则 ^0b34c7
+
+> 配置*Configuration*是如何 build 一个项目的一系列规则 ^0b34c7
 
 ![](./storage%20bag/Pasted%20image%2020230621232713.png)
-*Solution platform*使我们目前编译的目标平台，x86 就是生成一个用于 windows 的 32 位程序，你要求弄安卓程序就改成安卓相关的
+
+> *Solution platform*使我们目前编译的目标平台，x86 就是生成一个用于 windows 的 32 位程序，你要求弄安卓程序就改成安卓相关的
 
 若要修改我们的配置，右键项目点击*Properties*,得到下面界面
 ![](./storage%20bag/Pasted%20image%2020230621233202.png)
 
-_==注意==_:确保*Active*的是你想修改的，有可能会不是
+> _==注意==_:确保*Active*的是你想修改的，有可能会不是
 
 ### 2.3 Linker 链接器
 
