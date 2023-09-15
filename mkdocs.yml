@@ -112,7 +112,7 @@ nav:
   - 57 C++的静态数组(std array): '51-100/57 Static Arrays in C++ (std - -array).md'
   - 58 C++的函数指针: '51-100/58 Function Pointers in C++.md'
   - 59 C++的lambda: '51-100/59 Lambdas in C++.md'
-  - 60 为什么不使用namespace std: '51-100/60 Why I don't 'using namespace std'.md'
+  - 60 为什么不使用namespace::std: '51-100/60 Why I don't `using namespace std`.md'
   - 61 C++的名称空间: '51-100/61 Namespaces in C++.md'
   - 62 C++的线程: '51-100/62 Threads in C++.md'
   - 63 C++的计时: '51-100/63 Timing in C++.md'
