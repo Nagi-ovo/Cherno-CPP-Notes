@@ -1,8 +1,8 @@
-#将不同类型的数据存储在单变量中系列1/3
+#将不同类型的数据存储在单变量中系列 1/3
 
 很多时候，我们有一个返回数据的函数，比方说我们正在读取一个文件，但是如果这个文件不能被读取会发生什么？它可能不存在，或者是数据不是我们期望的格式，我们仍然需要从函数中返回一些东西。在这个特定的情况下，可能只会返回一个空字符串，但这没有多大意义。意思是，如果读取文件是空的， 我们应该有办法看到数据是否存在。
 
-这就是要用到`std::optional`的地方了，这是C++17标准的新东西。
+这就是要用到`std::optional`的地方了，这是 C++17 标准的新东西。
 
 ```cpp
 #include <fstream>
@@ -56,10 +56,11 @@ int main()
 	std::string data = ReadFileAsString("data.txt",fileOpenSuccessfully);
 	if(fileOpenSuccessfully)
 	{
-		
+
 	}
 }
 ```
+
 这显然比判断空字符串好得多，但仍然不够好。
 这就要用到`std::optional`了，它在头文件`<optional`中。
 
@@ -95,9 +96,10 @@ int main()
 	std::cin.get();
 }
 ```
-可以在sln文件的同目录下创建一个data.txt文档，里面写点东西后运行代码，可以得到读取成功提示。
 
-![](Pasted%20image%2020230731184254.png)
+可以在 sln 文件的同目录下创建一个 data.txt 文档，里面写点东西后运行代码，可以得到读取成功提示。
+
+![](./storage%20bag/Pasted%20image%2020230731184254.png)
 
 还可以通过`value_or`来实现存储值不存在时返回传入的默认值：
 
@@ -106,6 +108,6 @@ std::string value = data.value_or("Not present");
 std::cout << value << "\n";
 ```
 
-![](Pasted%20image%2020230731184234.png)
+![](./storage%20bag/Pasted%20image%2020230731184234.png)
 
 `std::optional::value_or` 是一个成员函数，它返回存储的值或者在存储的值不存在时返回传入的默认值。在你的例子中，如果 `data` 存在值（即文件成功读取），`value_or` 就返回文件的内容；否则，它返回 "Not present"。

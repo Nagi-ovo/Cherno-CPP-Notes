@@ -4,7 +4,7 @@
 
 cpp 中没有文件的概念，文件只是给编译器提供源码的一个方式
 
-.cpp 告诉编译器用 c++编译->编译器当成一个*translation unit*->得到一个.obj ^c2b6d2
+.cpp 告诉编译器用 c++编译->编译器当成一个*translation unit*->得到一个.obj
 
 常见的[preprocessor](05%20How%20C++%20Works.md#^bafd29)语句==pragma statement==
 

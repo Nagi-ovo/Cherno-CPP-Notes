@@ -10,7 +10,7 @@
 
 带有`#`的为*preprocessor statement*，即预处理指令
 该类指令发生在真正的编译之前
-当编译器收到一个源文件时，做的第一件事情就是预处理所有预处理指令 ^bafd29
+当编译器收到一个源文件时，做的第一件事情就是预处理所有预处理指令
 
 ```cpp
 #include <iostream>
@@ -47,7 +47,7 @@
 
 ![](./storage%20bag/Pasted%20image%2020230621232703.png)
 
-> 配置*Configuration*是如何 build 一个项目的一系列规则 ^0b34c7
+> 配置*Configuration*是如何 build 一个项目的一系列规则
 
 ![](./storage%20bag/Pasted%20image%2020230621232713.png)
 

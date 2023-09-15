@@ -1,19 +1,23 @@
-经过上一节[89 Move Semantics in C++](89%20Move%20Semantics%20in%20C++.md)，已经基本了解移动语义的要点和所有基本知识了。移动语义能够将一个对象移动到另一个对象上，但是还没有涉及到其中的两个关键部分：`std::move`和 *move assignment oprator*（移动赋值运算符），这是一个赋值操作符，当我们想把一个对象移动到一个已有的对象中时（不是构造一个新对象）。
+经过上一节[89 Move Semantics in C++](89%20Move%20Semantics%20in%20C++.md)，已经基本了解移动语义的要点和所有基本知识了。移动语义能够将一个对象移动到另一个对象上，但是还没有涉及到其中的两个关键部分：`std::move`和 _move assignment oprator_（移动赋值运算符），这是一个赋值操作符，当我们想把一个对象移动到一个已有的对象中时（不是构造一个新对象）。
+
 ## 1. std::move
 
-上节的代码中，这里用`std::move`可以让我们把这个临时变量name，转移到m_Name这个可以永久居住的地方（类成员），
+上节的代码中，这里用`std::move`可以让我们把这个临时变量 name，转移到 m_Name 这个可以永久居住的地方（类成员），
+
 ```cpp
 	Entity(String&& name)
 	//	:m_Name(name) {}
-		:m_Name(std::move(name)) {} 
+		:m_Name(std::move(name)) {}
 ```
 
-新建一个String：
+新建一个 String：
+
 ```cpp
 String string = "Hello";
 String dest = string; // 复制字符串到新变量中，并非移动
 ```
-想要移动的话，显然需要Entity的移动构造函数，为了使用它我们需要确保传入的字符串变为**临时的**
+
+想要移动的话，显然需要 Entity 的移动构造函数，为了使用它我们需要确保传入的字符串变为**临时的**
 
 ```cpp
 String string = "Hello";
@@ -23,7 +27,8 @@ String string = "Hello";
 String dest(std::move (string));
 ```
 
-![](Pasted%20image%2020230812225450.png)
+![](./storage%20bag/Pasted%20image%2020230812225450.png)
+
 > 可以看到它返回一个右值引用类型，是以一种很好的模板化的方式来实现的，可以正确处理所有类型，包括常量等。
 
 这里哪种方法都是创建一个新对象，因此会用移动构造函数，这就引出了**移动赋值运算符**。
@@ -36,7 +41,8 @@ String dest(std::move (string));
 String dest(std::move (string));
 dest = std::move(string);
 ```
-> 运算符实际上就像一个函数，所以这里调用=运算符时，就像是你有一个assign函数dest.assgin(std::move(string))、
+
+> 运算符实际上就像一个函数，所以这里调用=运算符时，就像是你有一个 assign 函数 dest.assgin(std::move(string))、
 
 移动赋值运算符长得很像移动构造函数：
 
@@ -47,9 +53,9 @@ String& operator=(String&& other) noexcept
     printf("Moved!\n");
 
     // 检查self-assignment（自我赋值），确保不是将对象赋值给自身
-    if (this != &other) 
+    if (this != &other)
     {
-        // 删除当前对象持有的资源 
+        // 删除当前对象持有的资源
         delete[] m_Data; // **重点** 因为要覆盖原对象，删除内存防止内存泄漏
 
         // 将"other"对象的资源"窃取"到当前对象
@@ -91,10 +97,12 @@ int main()
 }
 ```
 
-![](Pasted%20image%2020230812233014.png)
-> 可以看到apple的资源被dest“偷走”了，我们基本上转移了整个字符数组的所有权，没有做任何复制或解除分配之类的事情。
+![](./storage%20bag/Pasted%20image%2020230812233014.png)
+
+> 可以看到 apple 的资源被 dest“偷走”了，我们基本上转移了整个字符数组的所有权，没有做任何复制或解除分配之类的事情。
 
 总而言之，移动赋值操作符是你想要包含在类中的东西，当你包含一个移动构造函数时，因为可能会想要将一个对象移动到一个现有变量中。它基本上是**五法则**的一部分，五法则包含了新移动语义
+
 > C++三法则：如果需要析构函数，则一定需要拷贝构造函数和拷贝赋值操作符；
 > C++五法则：为了支持移动语义，又增加了移动构造函数和移动赋值运算符。
 

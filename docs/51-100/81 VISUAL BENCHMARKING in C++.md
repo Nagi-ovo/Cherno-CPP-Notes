@@ -1,4 +1,5 @@
-如何可视化地测量性能。前置知识：[74 BENCHMARKING in C++ (how to measure performance)](74%20BENCHMARKING%20in%20C++%20(how%20to%20measure%20performance).md)
+如何可视化地测量性能。前置知识：[74 BENCHMARKING in C++ (how to measure performance)](<74%20BENCHMARKING%20in%20C++%20(how%20to%20measure%20performance).md>)
+
 ## 1. Basic benchmark
 
 ```cpp
@@ -70,18 +71,19 @@ Hello World #31.607
 Function2: 1037ms
 */
 ```
-现在结果只是数字，而且浏览寻找很麻烦，于是我们进入Visualization可视化环节：
+
+现在结果只是数字，而且浏览寻找很麻烦，于是我们进入 Visualization 可视化环节：
 
 ## 2. Visualization
 
-我们要进入Google Chrome，我反正猜不到可以用它来做可视化分析...
+我们要进入 Google Chrome，我反正猜不到可以用它来做可视化分析...
 
-Chrome自带一些自己的分析工具和其它开发工具，很明显是针对网络应用或网页的，还有一个特别的叫Chome Tracing，它很*barebone*（准系统），很简单而基础，让我们能够可视化我们的分析和堆栈跟踪视图。
+Chrome 自带一些自己的分析工具和其它开发工具，很明显是针对网络应用或网页的，还有一个特别的叫 Chome Tracing，它很*barebone*（准系统），很简单而基础，让我们能够可视化我们的分析和堆栈跟踪视图。
 
-输入chrome://tracing即可进入，而且很可能已经装在电脑里了：
-![](Pasted%20image%2020230804140336.png)
+输入 chrome://tracing 即可进入，而且很可能已经装在电脑里了：
+![](./storage%20bag/Pasted%20image%2020230804140336.png)
 
-它的工作方式是加载一个包含所有数据的json文件，我们的下一步是取所有我们用计时器记录的计时数据，把它放入一个用于Chrome tracing的json格式文件。
+它的工作方式是加载一个包含所有数据的 json 文件，我们的下一步是取所有我们用计时器记录的计时数据，把它放入一个用于 Chrome tracing 的 json 格式文件。
 
 ```cpp
 // 结构体ProfileResult，用于存储性能测试结果
@@ -247,9 +249,9 @@ int main()
 
 ```
 
-![](Pasted%20image%2020230804153050.png)
+![](./storage%20bag/Pasted%20image%2020230804153050.png)
 
-![](Pasted%20image%2020230804153918.png)
+![](./storage%20bag/Pasted%20image%2020230804153918.png)
 
 ```cpp
 void RunBenchmarks()
@@ -269,9 +271,9 @@ int main()
 }
 ```
 
-![](Pasted%20image%2020230804154014.png)
+![](./storage%20bag/Pasted%20image%2020230804154014.png)
 
-但这个RunBenchmark必须复制粘贴我们调用的每个函数的名称，比较麻烦，另外这样的计时代码不是我们想要在程序中一直运行的东西，应该有一个简单的方法可以关闭这些来减少开销，所以可以写一些宏来解决这两个问题：
+但这个 RunBenchmark 必须复制粘贴我们调用的每个函数的名称，比较麻烦，另外这样的计时代码不是我们想要在程序中一直运行的东西，应该有一个简单的方法可以关闭这些来减少开销，所以可以写一些宏来解决这两个问题：
 
 ```cpp
 #define PROFILING 1
@@ -303,11 +305,12 @@ void RunBenchmarks()
     Function1();
     Function2();
 ```
+
 > 也就是让预处理器帮我们完成，不用自己输入字符串
 
 如果我们想要更多信息，比如说有函数重载的情况：
 
-![](Pasted%20image%2020230804161636.png)
+![](./storage%20bag/Pasted%20image%2020230804161636.png)
 
 这样两个函数打印出来的名字是相同的，我们想要函数签名怎么办？
 
@@ -317,13 +320,14 @@ void RunBenchmarks()
 #define PROFILE_FUNCTION() PROFILE_SCOPE(__FUNCSIG__)// 预定义的宏，返回一个包含当前函数签名
 ```
 
-![](Pasted%20image%2020230804161705.png)
+![](./storage%20bag/Pasted%20image%2020230804161705.png)
 
-可以添加一个名称空间，\_\_FUNGSIG__会给你全部信息：
+可以添加一个名称空间，\_\_FUNGSIG\_\_会给你全部信息：
 
-![](Pasted%20image%2020230804162151.png)
+![](./storage%20bag/Pasted%20image%2020230804162151.png)
 
-ChromeTracing支持的另一个很酷的东西是多线程，前面的完整代码中已加入线程，但是并没有调用，所以：
+ChromeTracing 支持的另一个很酷的东西是多线程，前面的完整代码中已加入线程，但是并没有调用，所以：
+
 ```cpp
 	void RunBenchmarks()
 	{
@@ -338,4 +342,4 @@ ChromeTracing支持的另一个很酷的东西是多线程，前面的完整代�
 
 ```
 
-![](Pasted%20image%2020230804162801.png)
+![](./storage%20bag/Pasted%20image%2020230804162801.png)
