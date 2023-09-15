@@ -1,4 +1,4 @@
-site_name: Cherno-CPP-Notes-ZH
+site_name: cherno-cpp-notes
 docs_dir: docs/
 repo_name: 'Nagi-ovo/Cherno-CPP-Notes'
 repo_url: https://github.com/Nagi-ovo/Cherno-CPP-Notes
@@ -58,3 +58,24 @@ extra_css:
 nav:
   - 前言: 'README.md'
   - 05 C++是怎样工作的: '1-50/05 How C++ Works.md'
+  - 06 C++编译器是如何工作的: '1-50/06 How the C++ Compiler Works.md'
+  - 07 C++链接器是如何工作的: '1-50/07 How the C++ Linker Works.md'
+  - 08 C++中的变量: '1-50/08 Variables in C++.md'
+  - 09 C++中的函数: '1-50/09 Functions in C++.md'
+  - 10 C++中的头文件: '1-50/10 C++ Header Files.md'
+  - 11 如何在Visual Studio中调试: '1-50/11 How to DEBUG C++ in Visual Studio.md'
+  - 12 C++条件与分支（if语句）: '1-50/12 CONDITIONS and BRANCHES in C++.md'
+  - 13 Visual Studio的最佳设置: '1-50/13  BEST Visual Studio Setup for C++ Projects!.md'
+  - 14 C++循环（for 、while）: '1-50/14 Loops in C++(for,while loops).md'
+  - 15 C++控制流语句: '1-50/15 Control Flows in C++(continue,break,return).md'
+  - 16 C++指针: '1-50/16 POINTERS in C++.md'
+  - 17 C++引用: '1-50/17 REFERENCES in C++.md'
+  - 18 C++类: '1-50/18 CLASSES in C++.md'
+  - 19 C++类与结构体对比: '1-50/19 CLASSES vs STRUCTS in C++.md'
+  - 20 如何写一个C++类: '1-50/20 How to Write a C++ Class.md'
+  - 21 C++中的静态(static): '1-50/21 Static in C++.md'
+  - 22 C++类和结构体中的静态(static): '1-50/22 Static for Classes and Structs in C++.md'
+  - 23 C++中的局部静态（Local Static）: '1-50/23 Local Static in C++.md'
+  - 24 C++枚举: '1-50/24 ENUMS in C++.md'
+  - 25 C++构造函数: '1-50/25 Constructors in C++.md'
+  - 26 C++析构函数: '1-50/26 Destructors in C++.md'
