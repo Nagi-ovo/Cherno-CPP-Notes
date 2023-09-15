@@ -35,7 +35,7 @@
 
 📖 **许可证**
 
-该项目遵循 MIT 许可证。请查看 [LICENSE](LICENSE) 文件以获取更多信息。
+该项目遵循 MIT 许可证。请查看 [LICENSE](https://github.com/Nagi-ovo/Cherno-CPP-Notes/blob/master/LICENSE) 文件以获取更多信息。
 
 ---
 
@@ -71,4 +71,4 @@ Thanks for reading! Looking forward to your feedback and suggestions.
 
 📖 **License**
 
-This project is licensed under the terms of the MIT license. For more information see [LICENSE](LICENSE).
+This project is licensed under the terms of the MIT license. For more information see [LICENSE](https://github.com/Nagi-ovo/Cherno-CPP-Notes/blob/master/LICENSE).
