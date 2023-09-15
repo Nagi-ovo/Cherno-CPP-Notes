@@ -59,6 +59,7 @@ int main()
 ```
 
 那这里哪一个会被调用呢？
+
 ![](./storage%20bag/Pasted%20image%2020230721134655.png)
 
 这并不是 orange 在 apple 后导致的，而是因为其它原因。“Hello”其实是一个 const char\[]数组，而不是一个 string，如果只有 apple 命名空间，会在 apple::print()中做一个[隐式转换](40%20Implicit%20Conversion%20and%20the%20Explicit%20Keyword%20in%20C++.md#^cde452)，将 const char 数组转换为 string 对象。但是引入 orange 命名空间后，orange::print()匹配度更高，因为它的参数本来就是一个 const char\*，不需要隐式转换。
