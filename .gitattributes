@@ -1,4 +1,5 @@
 # Linguist overrides
 *.md linguist-detectable=true
 README.md linguist-detectable=false
-/docs/* linguist-detectable=true
+/docs/1-50* linguist-detectable=true
+/docs/51-100* linguist-detectable=true
