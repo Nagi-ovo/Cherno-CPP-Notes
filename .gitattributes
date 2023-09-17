@@ -1,3 +1,4 @@
 # Linguist overrides
 *.md linguist-detectable=true
 README.md linguist-detectable=false
+/docs/* linguist-detectable=true
