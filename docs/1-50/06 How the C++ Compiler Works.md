@@ -19,8 +19,6 @@ ifdef
 
 ### 2. 1 \#include
 
-^f8f616
-
 `#include`就是把想要的文件中的内容复制进来.比如创建了一个 EndBrace.h,2 其中的内容是：
 
 ```cpp
@@ -38,6 +36,7 @@ int Multiply(int a, int b)
 ```
 
 检查 Preprocess 的文件，可通过如下操作生成.i 文件
+
 ![](https://s2.loli.net/2023/06/24/oAysjHlPzxdfbtR.png)
 
 Math.i 文件内容如下
@@ -101,9 +100,11 @@ return 10
 ### 3.3 函数签名和 call
 
 call 即调用函数，通过图中的符号修饰对函数做唯一签名认真，让[linker](05%20How%20C++%20Works.md#^620dbb)按函数签名寻找函数
-![](./storage%20bag/Pasted%20image%2020230624211102.png) ^d63649
+
+![](./storage%20bag/Pasted%20image%2020230624211102.png) 
 
 修改编译器，可以自动优化汇编指令
+
 ![](./storage%20bag/Pasted%20image%2020230624210044.png)
 
 ![](./storage%20bag/屏幕截图%202023-06-24%20210107.jpg)
