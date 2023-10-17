@@ -27,6 +27,7 @@ int main()
 ```
 
 默认情况下，第一个变量的值为 0，依次递增
+
 ![](./storage%20bag/Pasted%20image%2020230703095443.png)
 
 ![](./storage%20bag/Pasted%20image%2020230703095529.png)
