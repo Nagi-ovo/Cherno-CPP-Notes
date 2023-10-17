@@ -59,6 +59,7 @@ std::string name = "Cherno Small St "; // 16个字符，立即产生32个字节�
 
 ![](./storage%20bag/Pasted%20image%2020230806014815.png)
 
-> 如果调试等级为 0，也就是 Release 模式下，只会调用 Fake_allocator，而它其实什么都不做：
-> ![](./storage%20bag/Pasted%20image%2020230806014947.png)
+如果调试等级为 0，也就是 Release 模式下，只会调用 Fake_allocator，而它其实什么都不做：
+
+![](./storage%20bag/Pasted%20image%2020230806014947.png)
 > 如果是 Debug 模式就会因这个 proxy_ptr 造成分配。
