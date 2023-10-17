@@ -2,8 +2,6 @@
 
 ## 1. 唯一区别
 
-^d8987b
-
 *struct*默认是*public*的
 
 ```cpp
