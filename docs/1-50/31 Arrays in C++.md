@@ -166,6 +166,7 @@ std::cout << count << std::endl;      // 5:元素的数量
 ```
 
 如果做`sizeof(example)`的话，会返回整形指针的大小（4），故你只能在栈分配的数组上用这个技巧
+
 ![](./storage%20bag/Pasted%20image%2020230704234722.png)
 
 改回`int example[5];`也能工作，但是你真的不能相信这个方法
@@ -173,6 +174,7 @@ std::cout << count << std::endl;      // 5:元素的数量
 #### 一个重点
 
 当你在栈中为数组申请内存时，它必须\*是一个编译时就需要知道的常量（以后会有别的方法解决）
+
 ![](./storage%20bag/Pasted%20image%2020230704234937.png)
 
 ```cpp

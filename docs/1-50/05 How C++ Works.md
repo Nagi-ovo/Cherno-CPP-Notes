@@ -39,7 +39,7 @@
 每个 cpp 程序都有一个类似`main`函数的东西，被称作*entry point*
 后面了解到这个必须的原因在于.exe 可执行文件必须需要一个入口，可在设置中自定义入口点（不一定必须是 main function）
 
-只有主函数可以不返回任何值，默认返回 0 ^d4cfc1
+只有主函数可以不返回任何值，默认返回 0
 
 *preprocessor statement*被评估后，我们的文件会被编译，这个阶段，编译器把我们的 cpp 代码转化为实际的机器码
 
@@ -80,6 +80,6 @@ _==注意==_:error list 不好用，工作原理是*parse*(解析)output 窗口�
 | void Log(x)  | void Log(x){ code...}      |
 
 文件被编译后，linker 会去找函数的定义，然后跟 main 中调用的联系起来。如果找不到会得到 linker error
-只有主函数可以不返回任何值，默认返回 0 ^2224fe
+只有主函数可以不返回任何值，默认返回 0
 
 *preprocessor statement*被评估后，我们的文件会被编译，这个阶段，编译器把我们的 cpp 代码转化为实际的机器码
