@@ -3,7 +3,7 @@
 ## 1. 一般使用
 ```cpp
 if (s_Level > 5)
-		s_Speed = 10;
+	s_Speed = 10;
 else
 	s_Speed = 5;
 ```
