@@ -52,7 +52,7 @@ void* prt = nullptr ; // c++11 引入
 
 ```cpp
 int var = 8;
-void* ptr = var;
+void* ptr = &var;
 *ptr = 10;  // 会得到错误，计算机怎么才能将一个值写入void指针里？
 ```
 
@@ -62,7 +62,7 @@ void* ptr = var;
 
 ```cpp
 int var = 8;
-int* ptr = var;
+int* ptr = &var;
 *ptr = 10;
 ```
 
