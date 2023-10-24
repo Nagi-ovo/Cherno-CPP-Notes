@@ -31,6 +31,7 @@ void* prt = nullptr ; // c++11 引入
 ## 2. 指针使用
 
 135fd6c 就是内存中存储这个整型变量的位置
+
 ![](./storage%20bag/Pasted%20image%2020230701112242.png)
 
 > 可以在 VS 的 memory 中查看：[方式请见](11%20How%20to%20DEBUG%20C++%20in%20Visual%20Studio.md#^dd3537)
@@ -40,6 +41,7 @@ void* prt = nullptr ; // c++11 引入
 > 可以看到这个地址存储着 8
 
 更改指针类型，依然可以找到内存，类型完全不会造成影响
+
 ![](./storage%20bag/微信图片_20230701113713.png)
 
 ## 3. 访问和改写
@@ -52,7 +54,7 @@ void* prt = nullptr ; // c++11 引入
 
 ```cpp
 int var = 8;
-void* ptr = &var;
+void* ptr = var; 
 *ptr = 10;  // 会得到错误，计算机怎么才能将一个值写入void指针里？
 ```
 
