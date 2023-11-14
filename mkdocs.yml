@@ -3,6 +3,8 @@ docs_dir: docs/
 repo_name: 'Nagi-ovo/Cherno-CPP-Notes'
 repo_url: https://github.com/Nagi-ovo/Cherno-CPP-Notes
 theme:
+  logo: https://thatwebsite.oss-cn-hongkong.aliyuncs.com/blog/avatar_sonny.jpg
+  favicon: https://thatwebsite.oss-cn-hongkong.aliyuncs.com/blog/avatar_sonny.jpg
   name: material
   language: zh
   static_templates:
@@ -32,6 +34,8 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
+extra:
+  homepage: https://nagi.fun
 
 markdown_extensions:
   - pymdownx.highlight:
