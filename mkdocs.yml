@@ -3,8 +3,8 @@ docs_dir: docs/
 repo_name: 'Nagi-ovo/Cherno-CPP-Notes'
 repo_url: https://github.com/Nagi-ovo/Cherno-CPP-Notes
 theme:
-  logo: https://thatwebsite.oss-cn-hongkong.aliyuncs.com/blog/avatar_sonny.jpg
-  favicon: https://thatwebsite.oss-cn-hongkong.aliyuncs.com/blog/avatar_sonny.jpg
+  logo: https://cdn.bjutswift.cn/https://raw.githubusercontent.com/Nagi-ovo/Cherno-CPP-Notes/master/assets/logo.ico
+  favicon: https://cdn.bjutswift.cn/https://raw.githubusercontent.com/Nagi-ovo/Cherno-CPP-Notes/master/assets/logo.ico
   name: material
   language: zh
   static_templates:
