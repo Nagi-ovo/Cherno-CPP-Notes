@@ -5,7 +5,7 @@ if statements
 ## 1. Disassembly
 
 在[Debug 模式](11%20How%20to%20DEBUG%20C++%20in%20Visual%20Studio.md#^a1059f)下调试时，右键或 Ctrl+K，G 即可调出 Go to disaseembly
-![](Pasted%20image%2020230627161844.png)
+![](./storage%20bag/Pasted%20image%2020230627161844.png)
 
 `jne`(jump not equal)，如果不相等就跳转
 
