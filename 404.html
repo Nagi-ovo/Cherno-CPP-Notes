@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script>
+        var segmentCount = 0;
+        var location = window.location;
+        var rootPath = '/Cherno-CPP-Notes/';
+        var enPath = '/Cherno-CPP-Notes/en/';
+        
+        if (location.pathname === '/' || location.pathname === '/en') {
+            window.location.replace(location.pathname === '/en' ? enPath : rootPath);
+        }
+    </script>
+</head>
+</html>

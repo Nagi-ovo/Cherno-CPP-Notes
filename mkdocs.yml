@@ -1,4 +1,5 @@
 site_name: cherno-cpp-notes
+site_url: https://nagi.fun/Cherno-CPP-Notes/
 docs_dir: docs/
 repo_name: 'Nagi-ovo/Cherno-CPP-Notes'
 repo_url: https://github.com/Nagi-ovo/Cherno-CPP-Notes
@@ -255,5 +256,3 @@ nav:
   - 88 C++的参数计算顺序: '51-100/88 Argument Evaluation Order in C++.md'
   - 89 C++移动语义: '51-100/89 Move Semantics in C++.md'
   - 90 std::move与移动赋值操作符: '51-100/90 std--move and the Move Assignment Operator in C++.md'
-
-site_url: https://nagi.fun/Cherno-CPP-Notes/
