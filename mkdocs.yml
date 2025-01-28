@@ -35,7 +35,7 @@ theme:
         icon: material/weather-sunny
         name: Switch to dark mode
 extra:
-  homepage: https://nagi.fun
+  homepage: https://www.nagi.fun/Cherno-CPP-Notes
 
 markdown_extensions:
   - pymdownx.highlight:
