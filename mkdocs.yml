@@ -67,9 +67,11 @@ plugins:
           default: true
           name: 简体中文
           build: true
+          site_name: Cherno C++ 学习笔记
         - locale: en
           name: English
           build: true
+          site_name: Cherno C++ Notes
           nav_translations:
             前言: Introduction
             05 C++是怎样工作的: 05 How C++ Works
@@ -158,8 +160,11 @@ plugins:
             88 C++的参数计算顺序: 88 Argument Evaluation Order in C++
             89 C++移动语义: 89 Move Semantics in C++
             90 std::move与移动赋值操作符: 90 std::move and Move Assignment Operators
-            
-      
+  - redirects:
+      redirect_maps:
+        'index.html': 'Cherno-CPP-Notes/'
+        'en/index.html': 'Cherno-CPP-Notes/en/'
+
 nav:
   - 前言: 'README.md'
   - 05 C++是怎样工作的: '1-50/05 How C++ Works.md'
