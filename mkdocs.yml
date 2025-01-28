@@ -35,7 +35,7 @@ theme:
         icon: material/weather-sunny
         name: Switch to dark mode
 extra:
-  homepage: https://www.nagi.fun/Cherno-CPP-Notes
+  homepage: https://www.nagi.fun
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -164,6 +164,8 @@ plugins:
       redirect_maps:
         'index.html': 'Cherno-CPP-Notes/'
         'en/index.html': 'Cherno-CPP-Notes/en/'
+        '/': 'Cherno-CPP-Notes/'
+        '/en': 'Cherno-CPP-Notes/en/'
 
 nav:
   - 前言: 'README.md'
@@ -253,3 +255,5 @@ nav:
   - 88 C++的参数计算顺序: '51-100/88 Argument Evaluation Order in C++.md'
   - 89 C++移动语义: '51-100/89 Move Semantics in C++.md'
   - 90 std::move与移动赋值操作符: '51-100/90 std--move and the Move Assignment Operator in C++.md'
+
+site_url: https://nagi.fun/Cherno-CPP-Notes/
