@@ -1,6 +1,8 @@
 # 📘 The Cherno's C++ Course Notes 📘
 
-[在线阅读](https://nagi.fun/Cherno-CPP-Notes/)，欢迎纠错，你可以随时发起 Issue or PR 🥰
+[在线阅读](https://nagi.fun/Cherno-CPP-Notes/) | [English Version Online Reading](https://nagi.fun/Cherno-CPP-Notes/en/)
+
+欢迎纠错，你可以随时发起 Issue or PR 🥰
 
 9/15/2023 更新：
 预计在一天内将本项目改为在线预览模式，方便有需要的人随时阅读，并且获得更好的学习体验，感谢大家的支持。
