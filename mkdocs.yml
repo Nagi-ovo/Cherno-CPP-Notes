@@ -59,6 +59,107 @@ extra_javascript:
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 
+plugins:
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: zh
+          default: true
+          name: 简体中文
+          build: true
+        - locale: en
+          name: English
+          build: true
+          nav_translations:
+            前言: Introduction
+            05 C++是怎样工作的: 05 How C++ Works
+            06 C++编译器是如何工作的: 06 How the C++ Compiler Works
+            07 C++链接器是如何工作的: 07 How the C++ Linker Works
+            08 C++中的变量: 08 Variables in C++
+            09 C++中的函数: 09 Functions in C++
+            10 C++中的头文件: 10 C++ Header Files
+            11 如何在Visual Studio中调试: 11 How to DEBUG C++ in Visual Studio
+            12 C++条件与分支(if语句): 12 CONDITIONS and BRANCHES in C++
+            13 Visual Studio的最佳设置: 13 BEST Visual Studio Setup for C++ Projects
+            14 C++循环(for&while): 14 Loops in C++
+            15 C++控制流语句: 15 Control Flow in C++
+            16 C++指针: 16 POINTERS in C++
+            17 C++引用: 17 REFERENCES in C++
+            18 C++类: 18 CLASSES in C++
+            19 C++类与结构体对比: 19 CLASSES vs STRUCTS in C++
+            20 如何写一个C++类: 20 How to Write a C++ Class
+            21 C++中的静态(static): 21 Static in C++
+            22 C++类和结构体中的静态(static): 22 Static for Classes and Structs in C++
+            23 C++中的局部静态(Local Static): 23 Local Static in C++
+            24 C++枚举: 24 ENUMS in C++
+            25 C++构造函数: 25 Constructors in C++
+            26 C++析构函数: 26 Destructors in C++
+            27 C++继承: 27 Inheritance in C++
+            28 C++虚函数: 28 Virtual Functions in C++
+            29 C++接口(纯虚函数): 29 Interfaces in C++
+            30 C++可见性: 30 Visibility in C++
+            31 C++数组: 31 Arrays in C++
+            32 C++字符串: 32 How Strings Work in C++
+            33 C++字符串字面量: 33 String Literals in C++
+            34 C++中的const: 34 CONST in C++
+            35 C++的mutable关键字: 35 The Mutable Keyword in C++
+            36 C++的成员初始化列表: 36 Member Initializer Lists in C++
+            37 C++的三元操作符: 37 Ternary Operators in C++
+            38 创建并初始化C++对象: 38 Creating and Instantiating Objects in C++
+            39 C++ new关键字: 39 The NEW Keyword in C++
+            40 C++隐式转换与explicit关键字: 40 Implicit Conversion and the Explicit Keyword in C++
+            41 C++运算符及其重载: 41 Operators and Operator Overloading in C++
+            42 C++的this关键字: 42 The this Keyword in C++
+            43 C++的对象生存期(栈作用域生存期): 43 Object Lifetime in C++
+            44 C++的智能指针: 44 Smart Pointers in C++
+            45 C++的复制与拷贝构造函数: 45 Copying and Copy Constructors in C++
+            46 C++的箭头操作符: 46 The Arrow Operator in C++
+            47 C++的动态数组(std::vector): 47 Dynamic Arrays in C++
+            48 C++的std::vector使用优化: 48 Optimizing std::vector Usage in C++
+            49 C++中使用库（静态链接）: 49 Using Static Libraries in C++
+            50 C++中使用动态库: 50 Using Dynamic Libraries in C++
+            51 C++中创建与使用库: 51 Making and Working with Libraries in C++
+            52 C++中如何处理多返回值: 52 Handling Multiple Return Values in C++
+            53 C++的模板: 53 Templates in C++
+            54 C++的堆与栈内存的比较: 54 Stack vs Heap Memory in C++
+            55 C++的宏: 55 Macros in C++
+            56 C++的auto关键字: 56 The auto Keyword in C++
+            57 C++的静态数组(std::array): 57 Static Arrays in C++
+            58 C++的函数指针: 58 Function Pointers in C++
+            59 C++的lambda: 59 Lambdas in C++
+            60 为什么不用using namespace std: 60 Why Not to Use using namespace std
+            61 C++的名称空间: 61 Namespaces in C++
+            62 C++的线程: 62 Threads in C++
+            63 C++的计时: 63 Timing in C++
+            64 C++多维数组: 64 Multidimensional Arrays in C++
+            65 C++的排序: 65 Sorting in C++
+            66 C++的类型双关: 66 Type Punning in C++
+            67 C++的联合体: 67 Unions in C++
+            68 C++的虚析构函数: 68 Virtual Destructors in C++
+            69 C++的类型转换: 69 Type Casting in C++
+            70 条件与操作断点: 70 Conditional and Action Breakpoints
+            71 现代C++中的安全以及如何教授(作者个人观点): 71 Safety in Modern C++ and How to Teach It
+            72 C++的预编译头文件: 72 Precompiled Headers in C++
+            73 C++的dynamic_cast: 73 Dynamic Casting in C++
+            74 C++的基准测试: 74 Benchmarking in C++
+            75 C++的结构化绑定: 75 Structured Bindings in C++
+            76 如何处理OPTIONAL数据: 76 Handling Optional Data in C++
+            77 单一变量存放多类型的数据: 77 Multiple Types in a Single Variable
+            78 如何存储任意类型的数据: 78 Storing Any Data Type in C++
+            79 如何让C++运行得更快: 79 Optimizing C++ Performance with std::async
+            80 如何让C++字符串更快: 80 Optimizing String Performance in C++
+            81 C++的可视化基准测试: 81 Visual Benchmarking in C++
+            82 C++的单例模式: 82 Singleton Pattern in C++
+            83 C++的小字符串优化: 83 Small String Optimization in C++
+            84 跟踪内存分配的简单方法: 84 Easy Memory Allocation Tracking in C++
+            85 C++的左值与右值: 85 Lvalues and Rvalues in C++
+            86 C++持续集成: 86 Continuous Integration in C++
+            87 C++ 静态分析: 87 Static Analysis in C++
+            88 C++的参数计算顺序: 88 Argument Evaluation Order in C++
+            89 C++移动语义: 89 Move Semantics in C++
+            90 std::move与移动赋值操作符: 90 std::move and Move Assignment Operators
+            
+      
 nav:
   - 前言: 'README.md'
   - 05 C++是怎样工作的: '1-50/05 How C++ Works.md'

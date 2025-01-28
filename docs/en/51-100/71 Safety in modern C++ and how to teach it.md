@@ -1,0 +1,21 @@
+# Notes on C++ Safety and Smart Pointers
+
+This section discusses what "safety" means in C++.
+
+Safe programming refers to the practice of reducing crashes, memory leaks, illegal access, and other issues in code. With the advent of C++11, Cherno emphasizes that developers should shift towards concepts like **smart pointers** instead of raw pointers. This is primarily due to issues such as memory leaks and the difficulty in tracking which memory has been allocated or freed. This section focuses on pointers and memory management, rather than exceptions or other aspects of safe programming like error checking.
+
+When we start leaning towards concepts like [smart pointers](44%20SMART%20POINTERS%20in%20C++.md), it all boils down to the idea that we want to allocate **heap memory**. Smart pointers and automatic memory management systems make a programmer's life easier and more robust. This means you no longer need to handle certain tasks manually, and even if you forget, the system will handle them for you.
+
+Allocating memory is straightforward: you want to allocate a block of memory on the heap. If the allocation is successful, you get a valid pointer to the beginning of that memory block. It will persist until you explicitly delete it. This is the basic concept.
+
+However, problems arise from several aspects:
+
+- **What happens if I *forget to free* my memory?** It might be harmless and go unnoticed, or it could lead to a catastrophic memory exhaustion that crashes the program. "Being careful and being a good programmer" is not a real solution. You still need to consider more complex structures to delete the memory you explicitly allocated.
+
+- **Ownership issues**: Who owns the allocated memory? If I have a raw pointer pointing to that memory and pass it from one function to another, or from one class to another, the question of **who is responsible for managing and cleaning up that memory** becomes the ***ownership problem***. You can't be sure which function, A or B, managing the raw pointer will finish last, but you need to ensure both functions can access the pointer. Unless you specify a cleanup step after both functions run, this will significantly complicate the program, which is something we absolutely want to avoid. I want to reallocate data, but I don't want to explicitly set up something like managing ownership or transferring ownership, which would make things very complicated. You would have to manually track it. This is another ownership issue.
+
+These two major problems are why we need automatic memory deletion. When discussing C++ safety, especially with smart pointers, we can automate the deletion and freeing of memory with just a single line of code. Therefore, you absolutely should not reject the use of smart pointers. Building and modifying smart pointers yourself is also normal.
+
+Of course, if you're working on a small sandbox application of around 100 lines, raw pointers might be more readable because you don't care about freeing memory or ownership. You can just use a `*` to make the code cleaner.
+
+Cherno believes that the debate over "Smart or Raw" should stop. In a real framework or application environment, production code should use smart pointers. Not doing so is a very foolish move, as most typical problems can be solved this way (though there might be some issues with threads, as `shared_ptr` is not thread-safe. There are other constraints with smart pointers, so they are not a universal memory solution). In more serious code, smart pointers should absolutely be used. However, when learning C++, it's essential to understand how raw pointers and memory work because [smart pointers are just wrappers around raw pointers](44%20SMART%20POINTERS%20in%20C++.md#^a6997e). They add extra helper code around raw pointers to automate everything, but fundamentally, they just delete and free memory. You must understand how all this works, which is why Cherno has lessons on how the compiler and linker work ([06 How the C++ Compiler Works](06%20How%20the%20C++%20Compiler%20Works.md), [07 How the C++ Linker Works](07%20How%20the%20C++%20Linker%20Works.md)).
