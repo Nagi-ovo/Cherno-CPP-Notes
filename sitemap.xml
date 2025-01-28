@@ -1,3 +1,1221 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>None./</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/"/>
+    </url>
+    <url>
+        <loc>None1-50/05%20How%20C%2B%2B%20Works/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/05%20How%20C%2B%2B%20Works/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/05%20How%20C%2B%2B%20Works/"/>
+    </url>
+    <url>
+        <loc>None1-50/06%20How%20the%20C%2B%2B%20Compiler%20Works/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/06%20How%20the%20C%2B%2B%20Compiler%20Works/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/06%20How%20the%20C%2B%2B%20Compiler%20Works/"/>
+    </url>
+    <url>
+        <loc>None1-50/07%20How%20the%20C%2B%2B%20Linker%20Works/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/07%20How%20the%20C%2B%2B%20Linker%20Works/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/07%20How%20the%20C%2B%2B%20Linker%20Works/"/>
+    </url>
+    <url>
+        <loc>None1-50/08%20Variables%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/08%20Variables%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/08%20Variables%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/09%20Functions%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/09%20Functions%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/09%20Functions%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/10%20C%2B%2B%20Header%20Files/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/10%20C%2B%2B%20Header%20Files/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/10%20C%2B%2B%20Header%20Files/"/>
+    </url>
+    <url>
+        <loc>None1-50/11%20How%20to%20DEBUG%20C%2B%2B%20in%20Visual%20Studio/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/11%20How%20to%20DEBUG%20C%2B%2B%20in%20Visual%20Studio/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/11%20How%20to%20DEBUG%20C%2B%2B%20in%20Visual%20Studio/"/>
+    </url>
+    <url>
+        <loc>None1-50/12%20CONDITIONS%20and%20BRANCHES%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/12%20CONDITIONS%20and%20BRANCHES%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/12%20CONDITIONS%20and%20BRANCHES%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/13%20%20BEST%20Visual%20Studio%20Setup%20for%20C%2B%2B%20Projects%21/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/13%20%20BEST%20Visual%20Studio%20Setup%20for%20C%2B%2B%20Projects%21/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/13%20%20BEST%20Visual%20Studio%20Setup%20for%20C%2B%2B%20Projects%21/"/>
+    </url>
+    <url>
+        <loc>None1-50/14%20Loops%20in%20C%2B%2B%28for%2Cwhile%20loops%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/14%20Loops%20in%20C%2B%2B%28for%2Cwhile%20loops%29/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/14%20Loops%20in%20C%2B%2B%28for%2Cwhile%20loops%29/"/>
+    </url>
+    <url>
+        <loc>None1-50/15%20Control%20Flows%20in%20C%2B%2B%28continue%2Cbreak%2Creturn%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/15%20Control%20Flows%20in%20C%2B%2B%28continue%2Cbreak%2Creturn%29/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/15%20Control%20Flows%20in%20C%2B%2B%28continue%2Cbreak%2Creturn%29/"/>
+    </url>
+    <url>
+        <loc>None1-50/16%20POINTERS%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/16%20POINTERS%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/16%20POINTERS%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/17%20REFERENCES%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/17%20REFERENCES%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/17%20REFERENCES%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/18%20CLASSES%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/18%20CLASSES%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/18%20CLASSES%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/19%20CLASSES%20vs%20STRUCTS%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/19%20CLASSES%20vs%20STRUCTS%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/19%20CLASSES%20vs%20STRUCTS%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/20%20How%20to%20Write%20a%20C%2B%2B%20Class/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/20%20How%20to%20Write%20a%20C%2B%2B%20Class/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/20%20How%20to%20Write%20a%20C%2B%2B%20Class/"/>
+    </url>
+    <url>
+        <loc>None1-50/21%20Static%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/21%20Static%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/21%20Static%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/22%20Static%20for%20Classes%20and%20Structs%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/22%20Static%20for%20Classes%20and%20Structs%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/22%20Static%20for%20Classes%20and%20Structs%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/23%20Local%20Static%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/23%20Local%20Static%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/23%20Local%20Static%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/24%20ENUMS%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/24%20ENUMS%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/24%20ENUMS%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/25%20Constructors%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/25%20Constructors%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/25%20Constructors%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/26%20Destructors%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/26%20Destructors%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/26%20Destructors%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/27%20Inheritance%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/27%20Inheritance%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/27%20Inheritance%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/28%20Virtual%20Functions%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/28%20Virtual%20Functions%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/28%20Virtual%20Functions%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/29%20Interfaces%20in%20C%2B%2B%20%28Pure%20Virtual%20Functions%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/29%20Interfaces%20in%20C%2B%2B%20%28Pure%20Virtual%20Functions%29/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/29%20Interfaces%20in%20C%2B%2B%20%28Pure%20Virtual%20Functions%29/"/>
+    </url>
+    <url>
+        <loc>None1-50/30%20Visibility%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/30%20Visibility%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/30%20Visibility%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/31%20Arrays%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/31%20Arrays%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/31%20Arrays%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/32%20How%20Strings%20Work%20in%20C%2B%2B%20%28and%20how%20to%20use%20them%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/32%20How%20Strings%20Work%20in%20C%2B%2B%20%28and%20how%20to%20use%20them%29/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/32%20How%20Strings%20Work%20in%20C%2B%2B%20%28and%20how%20to%20use%20them%29/"/>
+    </url>
+    <url>
+        <loc>None1-50/33%20String%20Literals%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/33%20String%20Literals%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/33%20String%20Literals%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/34%20CONST%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/34%20CONST%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/34%20CONST%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/35%20The%20Mutable%20Keyword%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/35%20The%20Mutable%20Keyword%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/35%20The%20Mutable%20Keyword%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/36%20%20Member%20Initializer%20Lists%20in%20C%2B%2B%20%28Constructor%20Initializer%20List%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/36%20%20Member%20Initializer%20Lists%20in%20C%2B%2B%20%28Constructor%20Initializer%20List%29/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/36%20%20Member%20Initializer%20Lists%20in%20C%2B%2B%20%28Constructor%20Initializer%20List%29/"/>
+    </url>
+    <url>
+        <loc>None1-50/37%20Ternary%20Operators%20in%20C%2B%2B%20%28Conditional%20Assignment%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/37%20Ternary%20Operators%20in%20C%2B%2B%20%28Conditional%20Assignment%29/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/37%20Ternary%20Operators%20in%20C%2B%2B%20%28Conditional%20Assignment%29/"/>
+    </url>
+    <url>
+        <loc>None1-50/38%20How%20to%20CREATE_INSTANTIATE%20OBJECTS%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/38%20How%20to%20CREATE_INSTANTIATE%20OBJECTS%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/38%20How%20to%20CREATE_INSTANTIATE%20OBJECTS%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/39%20The%20NEW%20Keyword%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/39%20The%20NEW%20Keyword%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/39%20The%20NEW%20Keyword%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/40%20Implicit%20Conversion%20and%20the%20Explicit%20Keyword%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/40%20Implicit%20Conversion%20and%20the%20Explicit%20Keyword%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/40%20Implicit%20Conversion%20and%20the%20Explicit%20Keyword%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/41%20OPERATORS%20and%20OPERATOR%20OVERLOADING%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/41%20OPERATORS%20and%20OPERATOR%20OVERLOADING%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/41%20OPERATORS%20and%20OPERATOR%20OVERLOADING%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/42%20The%20%60this%60%20keyword%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/42%20The%20%60this%60%20keyword%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/42%20The%20%60this%60%20keyword%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/43%20Object%20Lifetime%20in%20C%2B%2B%20%28Stack_Scope%20Lifetimes%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/43%20Object%20Lifetime%20in%20C%2B%2B%20%28Stack_Scope%20Lifetimes%29/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/43%20Object%20Lifetime%20in%20C%2B%2B%20%28Stack_Scope%20Lifetimes%29/"/>
+    </url>
+    <url>
+        <loc>None1-50/44%20SMART%20POINTERS%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/44%20SMART%20POINTERS%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/44%20SMART%20POINTERS%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/45%20Copying%20and%20Copy%20Constructors%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/45%20Copying%20and%20Copy%20Constructors%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/45%20Copying%20and%20Copy%20Constructors%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/46%20The%20Arrow%20Operator%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/46%20The%20Arrow%20Operator%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/46%20The%20Arrow%20Operator%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/47%20Dynamic%20Arrays%20in%20C%2B%2B%20%28std%20-%20-vector%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/47%20Dynamic%20Arrays%20in%20C%2B%2B%20%28std%20-%20-vector%29/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/47%20Dynamic%20Arrays%20in%20C%2B%2B%20%28std%20-%20-vector%29/"/>
+    </url>
+    <url>
+        <loc>None1-50/48%20Optimizing%20the%20usage%20of%20std%20-%20-vector%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/48%20Optimizing%20the%20usage%20of%20std%20-%20-vector%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/48%20Optimizing%20the%20usage%20of%20std%20-%20-vector%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None1-50/49%20Using%20Libraries%20in%20C%2B%2B%20%28Static%20Linking%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/49%20Using%20Libraries%20in%20C%2B%2B%20%28Static%20Linking%29/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/49%20Using%20Libraries%20in%20C%2B%2B%20%28Static%20Linking%29/"/>
+    </url>
+    <url>
+        <loc>None1-50/50%20Using%20Dynamic%20Libraries%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/50%20Using%20Dynamic%20Libraries%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/50%20Using%20Dynamic%20Libraries%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/51%20Making%20and%20Working%20with%20Libraries%20in%20C%2B%2B%20%28Multiple%20Projects%20in%20VS%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/51%20Making%20and%20Working%20with%20Libraries%20in%20C%2B%2B%20%28Multiple%20Projects%20in%20VS%29/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/51%20Making%20and%20Working%20with%20Libraries%20in%20C%2B%2B%20%28Multiple%20Projects%20in%20VS%29/"/>
+    </url>
+    <url>
+        <loc>None51-100/52%20How%20to%20Deal%20with%20Multiple%20Return%20Values%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/52%20How%20to%20Deal%20with%20Multiple%20Return%20Values%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/52%20How%20to%20Deal%20with%20Multiple%20Return%20Values%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/53%20Templates%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/53%20Templates%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/53%20Templates%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/54%20Stack%20vs%20Heap%20Memory%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/54%20Stack%20vs%20Heap%20Memory%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/54%20Stack%20vs%20Heap%20Memory%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/55%20Macros%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/55%20Macros%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/55%20Macros%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/56%20The%20%60auto%60%20keyword%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/56%20The%20%60auto%60%20keyword%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/56%20The%20%60auto%60%20keyword%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/57%20Static%20Arrays%20in%20C%2B%2B%20%28std%20-%20-array%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/57%20Static%20Arrays%20in%20C%2B%2B%20%28std%20-%20-array%29/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/57%20Static%20Arrays%20in%20C%2B%2B%20%28std%20-%20-array%29/"/>
+    </url>
+    <url>
+        <loc>None51-100/58%20Function%20Pointers%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/58%20Function%20Pointers%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/58%20Function%20Pointers%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/59%20Lambdas%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/59%20Lambdas%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/59%20Lambdas%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/60%20Why%20I%20don%27t%20using%20namespace%20std/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/60%20Why%20I%20don%27t%20using%20namespace%20std/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/60%20Why%20I%20don%27t%20using%20namespace%20std/"/>
+    </url>
+    <url>
+        <loc>None51-100/61%20Namespaces%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/61%20Namespaces%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/61%20Namespaces%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/62%20Threads%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/62%20Threads%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/62%20Threads%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/63%20Timing%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/63%20Timing%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/63%20Timing%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/64%20Multidimensional%20Arrays%20in%20C%2B%2B%20%282D%20arrays%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/64%20Multidimensional%20Arrays%20in%20C%2B%2B%20%282D%20arrays%29/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/64%20Multidimensional%20Arrays%20in%20C%2B%2B%20%282D%20arrays%29/"/>
+    </url>
+    <url>
+        <loc>None51-100/65%20Sorting%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/65%20Sorting%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/65%20Sorting%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/66%20Type%20Punning%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/66%20Type%20Punning%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/66%20Type%20Punning%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/67%20Unions%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/67%20Unions%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/67%20Unions%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/68%20Virtual%20Destructors%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/68%20Virtual%20Destructors%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/68%20Virtual%20Destructors%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/69%20Casting%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/69%20Casting%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/69%20Casting%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/70%20Conditional%20and%20Action%20Breakpoints%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/70%20Conditional%20and%20Action%20Breakpoints%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/70%20Conditional%20and%20Action%20Breakpoints%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/71%20Safety%20in%20modern%20C%2B%2B%20and%20how%20to%20teach%20it/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/71%20Safety%20in%20modern%20C%2B%2B%20and%20how%20to%20teach%20it/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/71%20Safety%20in%20modern%20C%2B%2B%20and%20how%20to%20teach%20it/"/>
+    </url>
+    <url>
+        <loc>None51-100/72%20Precompiled%20Headers%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/72%20Precompiled%20Headers%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/72%20Precompiled%20Headers%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/73%20Dynamic%20Casting%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/73%20Dynamic%20Casting%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/73%20Dynamic%20Casting%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/74%20BENCHMARKING%20in%20C%2B%2B%20%28how%20to%20measure%20performance%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/74%20BENCHMARKING%20in%20C%2B%2B%20%28how%20to%20measure%20performance%29/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/74%20BENCHMARKING%20in%20C%2B%2B%20%28how%20to%20measure%20performance%29/"/>
+    </url>
+    <url>
+        <loc>None51-100/75%20STRUCTURED%20BINDINGS%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/75%20STRUCTURED%20BINDINGS%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/75%20STRUCTURED%20BINDINGS%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/76%20How%20to%20Deal%20with%20OPTIONAL%20Data%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/76%20How%20to%20Deal%20with%20OPTIONAL%20Data%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/76%20How%20to%20Deal%20with%20OPTIONAL%20Data%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/77%20Multiple%20TYPES%20of%20Data%20in%20a%20SINGLE%20VARIABLE%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/77%20Multiple%20TYPES%20of%20Data%20in%20a%20SINGLE%20VARIABLE%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/77%20Multiple%20TYPES%20of%20Data%20in%20a%20SINGLE%20VARIABLE%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/78%20How%20to%20store%20ANY%20data%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/78%20How%20to%20store%20ANY%20data%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/78%20How%20to%20store%20ANY%20data%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/79%20How%20to%20make%20C%2B%2B%20run%20FASTER%20%28with%20std-async%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/79%20How%20to%20make%20C%2B%2B%20run%20FASTER%20%28with%20std-async%29/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/79%20How%20to%20make%20C%2B%2B%20run%20FASTER%20%28with%20std-async%29/"/>
+    </url>
+    <url>
+        <loc>None51-100/80%20How%20to%20make%20your%20STRINGS%20faster/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/80%20How%20to%20make%20your%20STRINGS%20faster/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/80%20How%20to%20make%20your%20STRINGS%20faster/"/>
+    </url>
+    <url>
+        <loc>None51-100/81%20VISUAL%20BENCHMARKING%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/81%20VISUAL%20BENCHMARKING%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/81%20VISUAL%20BENCHMARKING%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/82%20SINGLETONS%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/82%20SINGLETONS%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/82%20SINGLETONS%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/83%20Small%20String%20Optimization%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/83%20Small%20String%20Optimization%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/83%20Small%20String%20Optimization%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/84%20Track%20MEMORY%20ALLOCATIONS%20the%20Easy%20way%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/84%20Track%20MEMORY%20ALLOCATIONS%20the%20Easy%20way%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/84%20Track%20MEMORY%20ALLOCATIONS%20the%20Easy%20way%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/85%20lvalues%20and%20rvalues%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/85%20lvalues%20and%20rvalues%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/85%20lvalues%20and%20rvalues%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/86%20Continuous%20Integration%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/86%20Continuous%20Integration%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/86%20Continuous%20Integration%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/87%20Static%20Analysis%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/87%20Static%20Analysis%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/87%20Static%20Analysis%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/88%20Argument%20Evaluation%20Order%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/88%20Argument%20Evaluation%20Order%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/88%20Argument%20Evaluation%20Order%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/89%20Move%20Semantics%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/89%20Move%20Semantics%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/89%20Move%20Semantics%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>None51-100/90%20std--move%20and%20the%20Move%20Assignment%20Operator%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/90%20std--move%20and%20the%20Move%20Assignment%20Operator%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/90%20std--move%20and%20the%20Move%20Assignment%20Operator%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/05%20How%20C%2B%2B%20Works/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/05%20How%20C%2B%2B%20Works/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/05%20How%20C%2B%2B%20Works/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/06%20How%20the%20C%2B%2B%20Compiler%20Works/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/06%20How%20the%20C%2B%2B%20Compiler%20Works/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/06%20How%20the%20C%2B%2B%20Compiler%20Works/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/07%20How%20the%20C%2B%2B%20Linker%20Works/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/07%20How%20the%20C%2B%2B%20Linker%20Works/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/07%20How%20the%20C%2B%2B%20Linker%20Works/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/08%20Variables%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/08%20Variables%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/08%20Variables%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/09%20Functions%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/09%20Functions%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/09%20Functions%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/10%20C%2B%2B%20Header%20Files/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/10%20C%2B%2B%20Header%20Files/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/10%20C%2B%2B%20Header%20Files/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/11%20How%20to%20DEBUG%20C%2B%2B%20in%20Visual%20Studio/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/11%20How%20to%20DEBUG%20C%2B%2B%20in%20Visual%20Studio/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/11%20How%20to%20DEBUG%20C%2B%2B%20in%20Visual%20Studio/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/12%20CONDITIONS%20and%20BRANCHES%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/12%20CONDITIONS%20and%20BRANCHES%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/12%20CONDITIONS%20and%20BRANCHES%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/13%20%20BEST%20Visual%20Studio%20Setup%20for%20C%2B%2B%20Projects%21/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/13%20%20BEST%20Visual%20Studio%20Setup%20for%20C%2B%2B%20Projects%21/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/13%20%20BEST%20Visual%20Studio%20Setup%20for%20C%2B%2B%20Projects%21/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/14%20Loops%20in%20C%2B%2B%28for%2Cwhile%20loops%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/14%20Loops%20in%20C%2B%2B%28for%2Cwhile%20loops%29/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/14%20Loops%20in%20C%2B%2B%28for%2Cwhile%20loops%29/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/15%20Control%20Flows%20in%20C%2B%2B%28continue%2Cbreak%2Creturn%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/15%20Control%20Flows%20in%20C%2B%2B%28continue%2Cbreak%2Creturn%29/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/15%20Control%20Flows%20in%20C%2B%2B%28continue%2Cbreak%2Creturn%29/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/16%20POINTERS%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/16%20POINTERS%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/16%20POINTERS%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/17%20REFERENCES%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/17%20REFERENCES%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/17%20REFERENCES%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/18%20CLASSES%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/18%20CLASSES%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/18%20CLASSES%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/19%20CLASSES%20vs%20STRUCTS%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/19%20CLASSES%20vs%20STRUCTS%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/19%20CLASSES%20vs%20STRUCTS%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/20%20How%20to%20Write%20a%20C%2B%2B%20Class/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/20%20How%20to%20Write%20a%20C%2B%2B%20Class/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/20%20How%20to%20Write%20a%20C%2B%2B%20Class/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/21%20Static%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/21%20Static%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/21%20Static%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/22%20Static%20for%20Classes%20and%20Structs%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/22%20Static%20for%20Classes%20and%20Structs%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/22%20Static%20for%20Classes%20and%20Structs%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/23%20Local%20Static%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/23%20Local%20Static%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/23%20Local%20Static%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/24%20ENUMS%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/24%20ENUMS%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/24%20ENUMS%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/25%20Constructors%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/25%20Constructors%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/25%20Constructors%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/26%20Destructors%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/26%20Destructors%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/26%20Destructors%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/27%20Inheritance%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/27%20Inheritance%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/27%20Inheritance%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/28%20Virtual%20Functions%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/28%20Virtual%20Functions%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/28%20Virtual%20Functions%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/29%20Interfaces%20in%20C%2B%2B%20%28Pure%20Virtual%20Functions%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/29%20Interfaces%20in%20C%2B%2B%20%28Pure%20Virtual%20Functions%29/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/29%20Interfaces%20in%20C%2B%2B%20%28Pure%20Virtual%20Functions%29/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/30%20Visibility%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/30%20Visibility%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/30%20Visibility%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/31%20Arrays%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/31%20Arrays%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/31%20Arrays%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/32%20How%20Strings%20Work%20in%20C%2B%2B%20%28and%20how%20to%20use%20them%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/32%20How%20Strings%20Work%20in%20C%2B%2B%20%28and%20how%20to%20use%20them%29/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/32%20How%20Strings%20Work%20in%20C%2B%2B%20%28and%20how%20to%20use%20them%29/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/33%20String%20Literals%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/33%20String%20Literals%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/33%20String%20Literals%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/34%20CONST%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/34%20CONST%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/34%20CONST%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/35%20The%20Mutable%20Keyword%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/35%20The%20Mutable%20Keyword%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/35%20The%20Mutable%20Keyword%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/36%20%20Member%20Initializer%20Lists%20in%20C%2B%2B%20%28Constructor%20Initializer%20List%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/36%20%20Member%20Initializer%20Lists%20in%20C%2B%2B%20%28Constructor%20Initializer%20List%29/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/36%20%20Member%20Initializer%20Lists%20in%20C%2B%2B%20%28Constructor%20Initializer%20List%29/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/37%20Ternary%20Operators%20in%20C%2B%2B%20%28Conditional%20Assignment%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/37%20Ternary%20Operators%20in%20C%2B%2B%20%28Conditional%20Assignment%29/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/37%20Ternary%20Operators%20in%20C%2B%2B%20%28Conditional%20Assignment%29/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/38%20How%20to%20CREATE_INSTANTIATE%20OBJECTS%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/38%20How%20to%20CREATE_INSTANTIATE%20OBJECTS%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/38%20How%20to%20CREATE_INSTANTIATE%20OBJECTS%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/39%20The%20NEW%20Keyword%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/39%20The%20NEW%20Keyword%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/39%20The%20NEW%20Keyword%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/40%20Implicit%20Conversion%20and%20the%20Explicit%20Keyword%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/40%20Implicit%20Conversion%20and%20the%20Explicit%20Keyword%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/40%20Implicit%20Conversion%20and%20the%20Explicit%20Keyword%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/41%20OPERATORS%20and%20OPERATOR%20OVERLOADING%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/41%20OPERATORS%20and%20OPERATOR%20OVERLOADING%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/41%20OPERATORS%20and%20OPERATOR%20OVERLOADING%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/42%20The%20%60this%60%20keyword%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/42%20The%20%60this%60%20keyword%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/42%20The%20%60this%60%20keyword%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/43%20Object%20Lifetime%20in%20C%2B%2B%20%28Stack_Scope%20Lifetimes%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/43%20Object%20Lifetime%20in%20C%2B%2B%20%28Stack_Scope%20Lifetimes%29/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/43%20Object%20Lifetime%20in%20C%2B%2B%20%28Stack_Scope%20Lifetimes%29/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/44%20SMART%20POINTERS%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/44%20SMART%20POINTERS%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/44%20SMART%20POINTERS%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/45%20Copying%20and%20Copy%20Constructors%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/45%20Copying%20and%20Copy%20Constructors%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/45%20Copying%20and%20Copy%20Constructors%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/46%20The%20Arrow%20Operator%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/46%20The%20Arrow%20Operator%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/46%20The%20Arrow%20Operator%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/47%20Dynamic%20Arrays%20in%20C%2B%2B%20%28std%20-%20-vector%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/47%20Dynamic%20Arrays%20in%20C%2B%2B%20%28std%20-%20-vector%29/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/47%20Dynamic%20Arrays%20in%20C%2B%2B%20%28std%20-%20-vector%29/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/48%20Optimizing%20the%20usage%20of%20std%20-%20-vector%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/48%20Optimizing%20the%20usage%20of%20std%20-%20-vector%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/48%20Optimizing%20the%20usage%20of%20std%20-%20-vector%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/49%20Using%20Libraries%20in%20C%2B%2B%20%28Static%20Linking%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/49%20Using%20Libraries%20in%20C%2B%2B%20%28Static%20Linking%29/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/49%20Using%20Libraries%20in%20C%2B%2B%20%28Static%20Linking%29/"/>
+    </url>
+    <url>
+        <loc>Noneen/1-50/50%20Using%20Dynamic%20Libraries%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/1-50/50%20Using%20Dynamic%20Libraries%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None1-50/50%20Using%20Dynamic%20Libraries%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/51%20Making%20and%20Working%20with%20Libraries%20in%20C%2B%2B%20%28Multiple%20Projects%20in%20VS%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/51%20Making%20and%20Working%20with%20Libraries%20in%20C%2B%2B%20%28Multiple%20Projects%20in%20VS%29/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/51%20Making%20and%20Working%20with%20Libraries%20in%20C%2B%2B%20%28Multiple%20Projects%20in%20VS%29/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/52%20How%20to%20Deal%20with%20Multiple%20Return%20Values%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/52%20How%20to%20Deal%20with%20Multiple%20Return%20Values%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/52%20How%20to%20Deal%20with%20Multiple%20Return%20Values%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/53%20Templates%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/53%20Templates%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/53%20Templates%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/54%20Stack%20vs%20Heap%20Memory%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/54%20Stack%20vs%20Heap%20Memory%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/54%20Stack%20vs%20Heap%20Memory%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/55%20Macros%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/55%20Macros%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/55%20Macros%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/56%20The%20%60auto%60%20keyword%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/56%20The%20%60auto%60%20keyword%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/56%20The%20%60auto%60%20keyword%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/57%20Static%20Arrays%20in%20C%2B%2B%20%28std%20-%20-array%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/57%20Static%20Arrays%20in%20C%2B%2B%20%28std%20-%20-array%29/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/57%20Static%20Arrays%20in%20C%2B%2B%20%28std%20-%20-array%29/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/58%20Function%20Pointers%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/58%20Function%20Pointers%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/58%20Function%20Pointers%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/59%20Lambdas%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/59%20Lambdas%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/59%20Lambdas%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/60%20Why%20I%20don%27t%20using%20namespace%20std/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/60%20Why%20I%20don%27t%20using%20namespace%20std/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/60%20Why%20I%20don%27t%20using%20namespace%20std/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/61%20Namespaces%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/61%20Namespaces%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/61%20Namespaces%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/62%20Threads%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/62%20Threads%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/62%20Threads%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/63%20Timing%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/63%20Timing%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/63%20Timing%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/64%20Multidimensional%20Arrays%20in%20C%2B%2B%20%282D%20arrays%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/64%20Multidimensional%20Arrays%20in%20C%2B%2B%20%282D%20arrays%29/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/64%20Multidimensional%20Arrays%20in%20C%2B%2B%20%282D%20arrays%29/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/65%20Sorting%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/65%20Sorting%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/65%20Sorting%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/66%20Type%20Punning%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/66%20Type%20Punning%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/66%20Type%20Punning%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/67%20Unions%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/67%20Unions%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/67%20Unions%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/68%20Virtual%20Destructors%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/68%20Virtual%20Destructors%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/68%20Virtual%20Destructors%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/69%20Casting%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/69%20Casting%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/69%20Casting%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/70%20Conditional%20and%20Action%20Breakpoints%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/70%20Conditional%20and%20Action%20Breakpoints%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/70%20Conditional%20and%20Action%20Breakpoints%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/71%20Safety%20in%20modern%20C%2B%2B%20and%20how%20to%20teach%20it/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/71%20Safety%20in%20modern%20C%2B%2B%20and%20how%20to%20teach%20it/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/71%20Safety%20in%20modern%20C%2B%2B%20and%20how%20to%20teach%20it/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/72%20Precompiled%20Headers%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/72%20Precompiled%20Headers%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/72%20Precompiled%20Headers%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/73%20Dynamic%20Casting%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/73%20Dynamic%20Casting%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/73%20Dynamic%20Casting%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/74%20BENCHMARKING%20in%20C%2B%2B%20%28how%20to%20measure%20performance%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/74%20BENCHMARKING%20in%20C%2B%2B%20%28how%20to%20measure%20performance%29/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/74%20BENCHMARKING%20in%20C%2B%2B%20%28how%20to%20measure%20performance%29/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/75%20STRUCTURED%20BINDINGS%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/75%20STRUCTURED%20BINDINGS%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/75%20STRUCTURED%20BINDINGS%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/76%20How%20to%20Deal%20with%20OPTIONAL%20Data%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/76%20How%20to%20Deal%20with%20OPTIONAL%20Data%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/76%20How%20to%20Deal%20with%20OPTIONAL%20Data%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/77%20Multiple%20TYPES%20of%20Data%20in%20a%20SINGLE%20VARIABLE%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/77%20Multiple%20TYPES%20of%20Data%20in%20a%20SINGLE%20VARIABLE%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/77%20Multiple%20TYPES%20of%20Data%20in%20a%20SINGLE%20VARIABLE%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/78%20How%20to%20store%20ANY%20data%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/78%20How%20to%20store%20ANY%20data%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/78%20How%20to%20store%20ANY%20data%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/79%20How%20to%20make%20C%2B%2B%20run%20FASTER%20%28with%20std-async%29/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/79%20How%20to%20make%20C%2B%2B%20run%20FASTER%20%28with%20std-async%29/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/79%20How%20to%20make%20C%2B%2B%20run%20FASTER%20%28with%20std-async%29/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/80%20How%20to%20make%20your%20STRINGS%20faster/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/80%20How%20to%20make%20your%20STRINGS%20faster/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/80%20How%20to%20make%20your%20STRINGS%20faster/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/81%20VISUAL%20BENCHMARKING%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/81%20VISUAL%20BENCHMARKING%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/81%20VISUAL%20BENCHMARKING%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/82%20SINGLETONS%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/82%20SINGLETONS%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/82%20SINGLETONS%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/83%20Small%20String%20Optimization%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/83%20Small%20String%20Optimization%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/83%20Small%20String%20Optimization%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/84%20Track%20MEMORY%20ALLOCATIONS%20the%20Easy%20way%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/84%20Track%20MEMORY%20ALLOCATIONS%20the%20Easy%20way%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/84%20Track%20MEMORY%20ALLOCATIONS%20the%20Easy%20way%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/85%20lvalues%20and%20rvalues%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/85%20lvalues%20and%20rvalues%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/85%20lvalues%20and%20rvalues%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/86%20Continuous%20Integration%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/86%20Continuous%20Integration%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/86%20Continuous%20Integration%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/87%20Static%20Analysis%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/87%20Static%20Analysis%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/87%20Static%20Analysis%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/88%20Argument%20Evaluation%20Order%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/88%20Argument%20Evaluation%20Order%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/88%20Argument%20Evaluation%20Order%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/89%20Move%20Semantics%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/89%20Move%20Semantics%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/89%20Move%20Semantics%20in%20C%2B%2B/"/>
+    </url>
+    <url>
+        <loc>Noneen/51-100/90%20std--move%20and%20the%20Move%20Assignment%20Operator%20in%20C%2B%2B/</loc>
+        <lastmod>2025-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/51-100/90%20std--move%20and%20the%20Move%20Assignment%20Operator%20in%20C%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="None51-100/90%20std--move%20and%20the%20Move%20Assignment%20Operator%20in%20C%2B%2B/"/>
+    </url>
 </urlset>

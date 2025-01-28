@@ -9,8 +9,14 @@
       
       
       
-      <link rel="icon" href="https://thatwebsite.oss-cn-hongkong.aliyuncs.com/blog/avatar_sonny.jpg">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-7.3.6">
+        <link rel="prev" href="../51%20Making%20and%20Working%20with%20Libraries%20in%20C%2B%2B%20%28Multiple%20Projects%20in%20VS%29/">
+      
+      
+        <link rel="next" href="../53%20Templates%20in%20C%2B%2B/">
+      
+      
+      <link rel="icon" href="https://cdn.bjutswift.cn/https://raw.githubusercontent.com/Nagi-ovo/Cherno-CPP-Notes/master/assets/logo.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
     
     
       
@@ -18,30 +24,35 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.a57b2b03.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a40c8224.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
         
-      
-    
-    
-    
-      
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
-    
     
     
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css">
     
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
-
+    
     
     
   </head>
@@ -56,10 +67,6 @@
     
     <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-blue" data-md-color-accent="cyan">
   
-    
-    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
-    
-      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -76,17 +83,21 @@
       
     </div>
     
+    
       
 
-<header class="md-header" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
     <a href="https://nagi.fun" title="cherno-cpp-notes" class="md-header__button md-logo" aria-label="cherno-cpp-notes" data-md-component="logo">
       
-  <img src="https://thatwebsite.oss-cn-hongkong.aliyuncs.com/blog/avatar_sonny.jpg" alt="logo">
+  <img src="https://cdn.bjutswift.cn/https://raw.githubusercontent.com/Nagi-ovo/Cherno-CPP-Notes/master/assets/logo.ico" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
     </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
@@ -105,77 +116,69 @@
       </div>
     </div>
     
-      <form class="md-header__option" data-md-component="palette">
-        
-          
-          
-          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="deep-blue" data-md-color-accent="cyan"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
-          
-            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_2" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31z"/></svg>
-            </label>
-          
-        
-          
-          
-          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="cyan" data-md-color-accent="deep-blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
-          
-            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22z"/></svg>
-            </label>
-          
-        
-      </form>
+      
+        <form class="md-header__option" data-md-component="palette">
+  
     
     
     
-      <label class="md-header__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="deep-blue" data-md-color-accent="cyan"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
       </label>
-      
-<div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="cyan" data-md-color-accent="deep-blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-          <a href="javascript:void(0)" class="md-search__icon md-icon" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08z"/></svg>
-          </a>
-        
-        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
-        </button>
-      </nav>
+    
+  
+</form>
       
-        <div class="md-search__suggest" data-md-component="search-suggest"></div>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            正在初始化搜索引擎
-          </div>
-          <ol class="md-search-result__list"></ol>
-        </div>
-      </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="选择当前语言">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="zh" class="md-select__link">
+              简体中文
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../en/51-100/52%20How%20to%20Deal%20with%20Multiple%20Return%20Values%20in%20C%2B%2B/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
     </div>
   </div>
 </div>
     
     
+    
       <div class="md-header__source">
-        
-<a href="https://github.com/Nagi-ovo/Cherno-CPP-Notes" title="前往仓库" class="md-source" data-md-component="source">
+        <a href="https://github.com/Nagi-ovo/Cherno-CPP-Notes" title="前往仓库" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
   </div>
   <div class="md-source__repository">
     Nagi-ovo/Cherno-CPP-Notes
@@ -205,22 +208,22 @@
                     
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="https://nagi.fun" title="cherno-cpp-notes" class="md-nav__button md-logo" aria-label="cherno-cpp-notes" data-md-component="logo">
       
-  <img src="https://thatwebsite.oss-cn-hongkong.aliyuncs.com/blog/avatar_sonny.jpg" alt="logo">
+  <img src="https://cdn.bjutswift.cn/https://raw.githubusercontent.com/Nagi-ovo/Cherno-CPP-Notes/master/assets/logo.ico" alt="logo">
 
     </a>
     cherno-cpp-notes
   </label>
   
     <div class="md-nav__source">
-      
-<a href="https://github.com/Nagi-ovo/Cherno-CPP-Notes" title="前往仓库" class="md-source" data-md-component="source">
+      <a href="https://github.com/Nagi-ovo/Cherno-CPP-Notes" title="前往仓库" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
   </div>
   <div class="md-source__repository">
     Nagi-ovo/Cherno-CPP-Notes
@@ -232,14 +235,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../.." class="md-nav__link">
-        前言
+        
+  
+  <span class="md-ellipsis">
+    前言
+  </span>
+  
+
       </a>
     </li>
   
@@ -247,14 +255,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/05%20How%20C%2B%2B%20Works/" class="md-nav__link">
-        05 C++是怎样工作的
+        
+  
+  <span class="md-ellipsis">
+    05 C++是怎样工作的
+  </span>
+  
+
       </a>
     </li>
   
@@ -262,14 +275,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/06%20How%20the%20C%2B%2B%20Compiler%20Works/" class="md-nav__link">
-        06 C++编译器是如何工作的
+        
+  
+  <span class="md-ellipsis">
+    06 C++编译器是如何工作的
+  </span>
+  
+
       </a>
     </li>
   
@@ -277,14 +295,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/07%20How%20the%20C%2B%2B%20Linker%20Works/" class="md-nav__link">
-        07 C++链接器是如何工作的
+        
+  
+  <span class="md-ellipsis">
+    07 C++链接器是如何工作的
+  </span>
+  
+
       </a>
     </li>
   
@@ -292,14 +315,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/08%20Variables%20in%20C%2B%2B/" class="md-nav__link">
-        08 C++中的变量
+        
+  
+  <span class="md-ellipsis">
+    08 C++中的变量
+  </span>
+  
+
       </a>
     </li>
   
@@ -307,14 +335,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/09%20Functions%20in%20C%2B%2B/" class="md-nav__link">
-        09 C++中的函数
+        
+  
+  <span class="md-ellipsis">
+    09 C++中的函数
+  </span>
+  
+
       </a>
     </li>
   
@@ -322,14 +355,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/10%20C%2B%2B%20Header%20Files/" class="md-nav__link">
-        10 C++中的头文件
+        
+  
+  <span class="md-ellipsis">
+    10 C++中的头文件
+  </span>
+  
+
       </a>
     </li>
   
@@ -337,14 +375,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/11%20How%20to%20DEBUG%20C%2B%2B%20in%20Visual%20Studio/" class="md-nav__link">
-        11 如何在Visual Studio中调试
+        
+  
+  <span class="md-ellipsis">
+    11 如何在Visual Studio中调试
+  </span>
+  
+
       </a>
     </li>
   
@@ -352,14 +395,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/12%20CONDITIONS%20and%20BRANCHES%20in%20C%2B%2B/" class="md-nav__link">
-        12 C++条件与分支(if语句)
+        
+  
+  <span class="md-ellipsis">
+    12 C++条件与分支(if语句)
+  </span>
+  
+
       </a>
     </li>
   
@@ -367,14 +415,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/13%20%20BEST%20Visual%20Studio%20Setup%20for%20C%2B%2B%20Projects%21/" class="md-nav__link">
-        13 Visual Studio的最佳设置
+        
+  
+  <span class="md-ellipsis">
+    13 Visual Studio的最佳设置
+  </span>
+  
+
       </a>
     </li>
   
@@ -382,14 +435,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/14%20Loops%20in%20C%2B%2B%28for%2Cwhile%20loops%29/" class="md-nav__link">
-        14 C++循环(for&while)
+        
+  
+  <span class="md-ellipsis">
+    14 C++循环(for&while)
+  </span>
+  
+
       </a>
     </li>
   
@@ -397,14 +455,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/15%20Control%20Flows%20in%20C%2B%2B%28continue%2Cbreak%2Creturn%29/" class="md-nav__link">
-        15 C++控制流语句
+        
+  
+  <span class="md-ellipsis">
+    15 C++控制流语句
+  </span>
+  
+
       </a>
     </li>
   
@@ -412,14 +475,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/16%20POINTERS%20in%20C%2B%2B/" class="md-nav__link">
-        16 C++指针
+        
+  
+  <span class="md-ellipsis">
+    16 C++指针
+  </span>
+  
+
       </a>
     </li>
   
@@ -427,14 +495,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/17%20REFERENCES%20in%20C%2B%2B/" class="md-nav__link">
-        17 C++引用
+        
+  
+  <span class="md-ellipsis">
+    17 C++引用
+  </span>
+  
+
       </a>
     </li>
   
@@ -442,14 +515,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/18%20CLASSES%20in%20C%2B%2B/" class="md-nav__link">
-        18 C++类
+        
+  
+  <span class="md-ellipsis">
+    18 C++类
+  </span>
+  
+
       </a>
     </li>
   
@@ -457,14 +535,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/19%20CLASSES%20vs%20STRUCTS%20in%20C%2B%2B/" class="md-nav__link">
-        19 C++类与结构体对比
+        
+  
+  <span class="md-ellipsis">
+    19 C++类与结构体对比
+  </span>
+  
+
       </a>
     </li>
   
@@ -472,14 +555,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/20%20How%20to%20Write%20a%20C%2B%2B%20Class/" class="md-nav__link">
-        20 如何写一个C++类
+        
+  
+  <span class="md-ellipsis">
+    20 如何写一个C++类
+  </span>
+  
+
       </a>
     </li>
   
@@ -487,14 +575,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/21%20Static%20in%20C%2B%2B/" class="md-nav__link">
-        21 C++中的静态(static)
+        
+  
+  <span class="md-ellipsis">
+    21 C++中的静态(static)
+  </span>
+  
+
       </a>
     </li>
   
@@ -502,14 +595,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/22%20Static%20for%20Classes%20and%20Structs%20in%20C%2B%2B/" class="md-nav__link">
-        22 C++类和结构体中的静态(static)
+        
+  
+  <span class="md-ellipsis">
+    22 C++类和结构体中的静态(static)
+  </span>
+  
+
       </a>
     </li>
   
@@ -517,14 +615,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/23%20Local%20Static%20in%20C%2B%2B/" class="md-nav__link">
-        23 C++中的局部静态(Local Static)
+        
+  
+  <span class="md-ellipsis">
+    23 C++中的局部静态(Local Static)
+  </span>
+  
+
       </a>
     </li>
   
@@ -532,14 +635,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/24%20ENUMS%20in%20C%2B%2B/" class="md-nav__link">
-        24 C++枚举
+        
+  
+  <span class="md-ellipsis">
+    24 C++枚举
+  </span>
+  
+
       </a>
     </li>
   
@@ -547,14 +655,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/25%20Constructors%20in%20C%2B%2B/" class="md-nav__link">
-        25 C++构造函数
+        
+  
+  <span class="md-ellipsis">
+    25 C++构造函数
+  </span>
+  
+
       </a>
     </li>
   
@@ -562,14 +675,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/26%20Destructors%20in%20C%2B%2B/" class="md-nav__link">
-        26 C++析构函数
+        
+  
+  <span class="md-ellipsis">
+    26 C++析构函数
+  </span>
+  
+
       </a>
     </li>
   
@@ -577,14 +695,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/27%20Inheritance%20in%20C%2B%2B/" class="md-nav__link">
-        27 C++继承
+        
+  
+  <span class="md-ellipsis">
+    27 C++继承
+  </span>
+  
+
       </a>
     </li>
   
@@ -592,14 +715,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/28%20Virtual%20Functions%20in%20C%2B%2B/" class="md-nav__link">
-        28 C++虚函数
+        
+  
+  <span class="md-ellipsis">
+    28 C++虚函数
+  </span>
+  
+
       </a>
     </li>
   
@@ -607,14 +735,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/29%20Interfaces%20in%20C%2B%2B%20%28Pure%20Virtual%20Functions%29/" class="md-nav__link">
-        29 C++接口(纯虚函数)
+        
+  
+  <span class="md-ellipsis">
+    29 C++接口(纯虚函数)
+  </span>
+  
+
       </a>
     </li>
   
@@ -622,14 +755,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/30%20Visibility%20in%20C%2B%2B/" class="md-nav__link">
-        30 C++可见性
+        
+  
+  <span class="md-ellipsis">
+    30 C++可见性
+  </span>
+  
+
       </a>
     </li>
   
@@ -637,14 +775,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/31%20Arrays%20in%20C%2B%2B/" class="md-nav__link">
-        31 C++数组
+        
+  
+  <span class="md-ellipsis">
+    31 C++数组
+  </span>
+  
+
       </a>
     </li>
   
@@ -652,14 +795,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/32%20How%20Strings%20Work%20in%20C%2B%2B%20%28and%20how%20to%20use%20them%29/" class="md-nav__link">
-        32 C++字符串
+        
+  
+  <span class="md-ellipsis">
+    32 C++字符串
+  </span>
+  
+
       </a>
     </li>
   
@@ -667,14 +815,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/33%20String%20Literals%20in%20C%2B%2B/" class="md-nav__link">
-        33 C++字符串字面量
+        
+  
+  <span class="md-ellipsis">
+    33 C++字符串字面量
+  </span>
+  
+
       </a>
     </li>
   
@@ -682,14 +835,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/34%20CONST%20in%20C%2B%2B/" class="md-nav__link">
-        34 C++中的const
+        
+  
+  <span class="md-ellipsis">
+    34 C++中的const
+  </span>
+  
+
       </a>
     </li>
   
@@ -697,14 +855,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/35%20The%20Mutable%20Keyword%20in%20C%2B%2B/" class="md-nav__link">
-        35 C++的mutable关键字
+        
+  
+  <span class="md-ellipsis">
+    35 C++的mutable关键字
+  </span>
+  
+
       </a>
     </li>
   
@@ -712,14 +875,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/36%20%20Member%20Initializer%20Lists%20in%20C%2B%2B%20%28Constructor%20Initializer%20List%29/" class="md-nav__link">
-        36 C++的成员初始化列表
+        
+  
+  <span class="md-ellipsis">
+    36 C++的成员初始化列表
+  </span>
+  
+
       </a>
     </li>
   
@@ -727,14 +895,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/37%20Ternary%20Operators%20in%20C%2B%2B%20%28Conditional%20Assignment%29/" class="md-nav__link">
-        37 C++的三元操作符
+        
+  
+  <span class="md-ellipsis">
+    37 C++的三元操作符
+  </span>
+  
+
       </a>
     </li>
   
@@ -742,14 +915,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/38%20How%20to%20CREATE_INSTANTIATE%20OBJECTS%20in%20C%2B%2B/" class="md-nav__link">
-        38 创建并初始化C++对象
+        
+  
+  <span class="md-ellipsis">
+    38 创建并初始化C++对象
+  </span>
+  
+
       </a>
     </li>
   
@@ -757,14 +935,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/39%20The%20NEW%20Keyword%20in%20C%2B%2B/" class="md-nav__link">
-        39 C++ new关键字
+        
+  
+  <span class="md-ellipsis">
+    39 C++ new关键字
+  </span>
+  
+
       </a>
     </li>
   
@@ -772,14 +955,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/40%20Implicit%20Conversion%20and%20the%20Explicit%20Keyword%20in%20C%2B%2B/" class="md-nav__link">
-        40 C++隐式转换与explicit关键字
+        
+  
+  <span class="md-ellipsis">
+    40 C++隐式转换与explicit关键字
+  </span>
+  
+
       </a>
     </li>
   
@@ -787,14 +975,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/41%20OPERATORS%20and%20OPERATOR%20OVERLOADING%20in%20C%2B%2B/" class="md-nav__link">
-        41 C++运算符及其重载
+        
+  
+  <span class="md-ellipsis">
+    41 C++运算符及其重载
+  </span>
+  
+
       </a>
     </li>
   
@@ -802,14 +995,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/42%20The%20%60this%60%20keyword%20in%20C%2B%2B/" class="md-nav__link">
-        42 C++的this关键字
+        
+  
+  <span class="md-ellipsis">
+    42 C++的this关键字
+  </span>
+  
+
       </a>
     </li>
   
@@ -817,14 +1015,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/43%20Object%20Lifetime%20in%20C%2B%2B%20%28Stack_Scope%20Lifetimes%29/" class="md-nav__link">
-        43 C++的对象生存期(栈作用域生存期)
+        
+  
+  <span class="md-ellipsis">
+    43 C++的对象生存期(栈作用域生存期)
+  </span>
+  
+
       </a>
     </li>
   
@@ -832,14 +1035,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/44%20SMART%20POINTERS%20in%20C%2B%2B/" class="md-nav__link">
-        44 C++的智能指针
+        
+  
+  <span class="md-ellipsis">
+    44 C++的智能指针
+  </span>
+  
+
       </a>
     </li>
   
@@ -847,14 +1055,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/45%20Copying%20and%20Copy%20Constructors%20in%20C%2B%2B/" class="md-nav__link">
-        45 C++的复制与拷贝构造函数
+        
+  
+  <span class="md-ellipsis">
+    45 C++的复制与拷贝构造函数
+  </span>
+  
+
       </a>
     </li>
   
@@ -862,14 +1075,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/46%20The%20Arrow%20Operator%20in%20C%2B%2B/" class="md-nav__link">
-        46 C++的箭头操作符
+        
+  
+  <span class="md-ellipsis">
+    46 C++的箭头操作符
+  </span>
+  
+
       </a>
     </li>
   
@@ -877,14 +1095,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/47%20Dynamic%20Arrays%20in%20C%2B%2B%20%28std%20-%20-vector%29/" class="md-nav__link">
-        47 C++的动态数组(std::vector)
+        
+  
+  <span class="md-ellipsis">
+    47 C++的动态数组(std::vector)
+  </span>
+  
+
       </a>
     </li>
   
@@ -892,14 +1115,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/48%20Optimizing%20the%20usage%20of%20std%20-%20-vector%20in%20C%2B%2B/" class="md-nav__link">
-        48 C++的std::vector使用优化
+        
+  
+  <span class="md-ellipsis">
+    48 C++的std::vector使用优化
+  </span>
+  
+
       </a>
     </li>
   
@@ -907,14 +1135,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/49%20Using%20Libraries%20in%20C%2B%2B%20%28Static%20Linking%29/" class="md-nav__link">
-        49 C++中使用库（静态链接）
+        
+  
+  <span class="md-ellipsis">
+    49 C++中使用库（静态链接）
+  </span>
+  
+
       </a>
     </li>
   
@@ -922,14 +1155,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../1-50/50%20Using%20Dynamic%20Libraries%20in%20C%2B%2B/" class="md-nav__link">
-        50 C++中使用动态库
+        
+  
+  <span class="md-ellipsis">
+    50 C++中使用动态库
+  </span>
+  
+
       </a>
     </li>
   
@@ -937,14 +1175,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../51%20Making%20and%20Working%20with%20Libraries%20in%20C%2B%2B%20%28Multiple%20Projects%20in%20VS%29/" class="md-nav__link">
-        51 C++中创建与使用库
+        
+  
+  <span class="md-ellipsis">
+    51 C++中创建与使用库
+  </span>
+  
+
       </a>
     </li>
   
@@ -952,30 +1195,40 @@
     
       
       
-      
-
   
   
     
   
   
+  
     <li class="md-nav__item md-nav__item--active">
       
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          52 C++中如何处理多返回值
+          
+  
+  <span class="md-ellipsis">
+    52 C++中如何处理多返回值
+  </span>
+  
+
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        52 C++中如何处理多返回值
+        
+  
+  <span class="md-ellipsis">
+    52 C++中如何处理多返回值
+  </span>
+  
+
       </a>
       
         
-
 
 <nav class="md-nav md-nav--secondary" aria-label="目录">
   
@@ -990,7 +1243,9 @@
       
         <li class="md-nav__item">
   <a href="#1" class="md-nav__link">
-    1. 怎么返回不同类型？
+    <span class="md-ellipsis">
+      1. 怎么返回不同类型？
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="1. 怎么返回不同类型？">
@@ -998,28 +1253,36 @@
         
           <li class="md-nav__item">
   <a href="#1_1" class="md-nav__link">
-    1. 指针和引用
+    <span class="md-ellipsis">
+      1. 指针和引用
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#2-arrayvector" class="md-nav__link">
-    2. array和vector
+    <span class="md-ellipsis">
+      2. array和vector
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#3-tuplepair" class="md-nav__link">
-    3. tuple和pair
+    <span class="md-ellipsis">
+      3. tuple和pair
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#4-struct" class="md-nav__link">
-    4. struct
+    <span class="md-ellipsis">
+      4. struct
+    </span>
   </a>
   
 </li>
@@ -1039,14 +1302,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../53%20Templates%20in%20C%2B%2B/" class="md-nav__link">
-        53 C++的模板
+        
+  
+  <span class="md-ellipsis">
+    53 C++的模板
+  </span>
+  
+
       </a>
     </li>
   
@@ -1054,14 +1322,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../54%20Stack%20vs%20Heap%20Memory%20in%20C%2B%2B/" class="md-nav__link">
-        54 C++的堆与栈内存的比较
+        
+  
+  <span class="md-ellipsis">
+    54 C++的堆与栈内存的比较
+  </span>
+  
+
       </a>
     </li>
   
@@ -1069,14 +1342,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../55%20Macros%20in%20C%2B%2B/" class="md-nav__link">
-        55 C++的宏
+        
+  
+  <span class="md-ellipsis">
+    55 C++的宏
+  </span>
+  
+
       </a>
     </li>
   
@@ -1084,14 +1362,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../56%20The%20%60auto%60%20keyword%20in%20C%2B%2B/" class="md-nav__link">
-        56 C++的auto关键字
+        
+  
+  <span class="md-ellipsis">
+    56 C++的auto关键字
+  </span>
+  
+
       </a>
     </li>
   
@@ -1099,14 +1382,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../57%20Static%20Arrays%20in%20C%2B%2B%20%28std%20-%20-array%29/" class="md-nav__link">
-        57 C++的静态数组(std::array)
+        
+  
+  <span class="md-ellipsis">
+    57 C++的静态数组(std::array)
+  </span>
+  
+
       </a>
     </li>
   
@@ -1114,14 +1402,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../58%20Function%20Pointers%20in%20C%2B%2B/" class="md-nav__link">
-        58 C++的函数指针
+        
+  
+  <span class="md-ellipsis">
+    58 C++的函数指针
+  </span>
+  
+
       </a>
     </li>
   
@@ -1129,14 +1422,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../59%20Lambdas%20in%20C%2B%2B/" class="md-nav__link">
-        59 C++的lambda
+        
+  
+  <span class="md-ellipsis">
+    59 C++的lambda
+  </span>
+  
+
       </a>
     </li>
   
@@ -1144,14 +1442,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../60%20Why%20I%20don%27t%20using%20namespace%20std/" class="md-nav__link">
-        60 为什么不用using namespace std
+        
+  
+  <span class="md-ellipsis">
+    60 为什么不用using namespace std
+  </span>
+  
+
       </a>
     </li>
   
@@ -1159,14 +1462,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../61%20Namespaces%20in%20C%2B%2B/" class="md-nav__link">
-        61 C++的名称空间
+        
+  
+  <span class="md-ellipsis">
+    61 C++的名称空间
+  </span>
+  
+
       </a>
     </li>
   
@@ -1174,14 +1482,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../62%20Threads%20in%20C%2B%2B/" class="md-nav__link">
-        62 C++的线程
+        
+  
+  <span class="md-ellipsis">
+    62 C++的线程
+  </span>
+  
+
       </a>
     </li>
   
@@ -1189,14 +1502,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../63%20Timing%20in%20C%2B%2B/" class="md-nav__link">
-        63 C++的计时
+        
+  
+  <span class="md-ellipsis">
+    63 C++的计时
+  </span>
+  
+
       </a>
     </li>
   
@@ -1204,14 +1522,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../64%20Multidimensional%20Arrays%20in%20C%2B%2B%20%282D%20arrays%29/" class="md-nav__link">
-        64 C++多维数组
+        
+  
+  <span class="md-ellipsis">
+    64 C++多维数组
+  </span>
+  
+
       </a>
     </li>
   
@@ -1219,14 +1542,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../65%20Sorting%20in%20C%2B%2B/" class="md-nav__link">
-        65 C++的排序
+        
+  
+  <span class="md-ellipsis">
+    65 C++的排序
+  </span>
+  
+
       </a>
     </li>
   
@@ -1234,14 +1562,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../66%20Type%20Punning%20in%20C%2B%2B/" class="md-nav__link">
-        66 C++的类型双关
+        
+  
+  <span class="md-ellipsis">
+    66 C++的类型双关
+  </span>
+  
+
       </a>
     </li>
   
@@ -1249,14 +1582,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../67%20Unions%20in%20C%2B%2B/" class="md-nav__link">
-        67 C++的联合体
+        
+  
+  <span class="md-ellipsis">
+    67 C++的联合体
+  </span>
+  
+
       </a>
     </li>
   
@@ -1264,14 +1602,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../68%20Virtual%20Destructors%20in%20C%2B%2B/" class="md-nav__link">
-        68 C++的虚析构函数
+        
+  
+  <span class="md-ellipsis">
+    68 C++的虚析构函数
+  </span>
+  
+
       </a>
     </li>
   
@@ -1279,14 +1622,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../69%20Casting%20in%20C%2B%2B/" class="md-nav__link">
-        69 C++的类型转换
+        
+  
+  <span class="md-ellipsis">
+    69 C++的类型转换
+  </span>
+  
+
       </a>
     </li>
   
@@ -1294,14 +1642,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../70%20Conditional%20and%20Action%20Breakpoints%20in%20C%2B%2B/" class="md-nav__link">
-        70 条件与操作断点
+        
+  
+  <span class="md-ellipsis">
+    70 条件与操作断点
+  </span>
+  
+
       </a>
     </li>
   
@@ -1309,14 +1662,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../71%20Safety%20in%20modern%20C%2B%2B%20and%20how%20to%20teach%20it/" class="md-nav__link">
-        71 现代C++中的安全以及如何教授(作者个人观点)
+        
+  
+  <span class="md-ellipsis">
+    71 现代C++中的安全以及如何教授(作者个人观点)
+  </span>
+  
+
       </a>
     </li>
   
@@ -1324,14 +1682,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../72%20Precompiled%20Headers%20in%20C%2B%2B/" class="md-nav__link">
-        72 C++的预编译头文件
+        
+  
+  <span class="md-ellipsis">
+    72 C++的预编译头文件
+  </span>
+  
+
       </a>
     </li>
   
@@ -1339,14 +1702,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../73%20Dynamic%20Casting%20in%20C%2B%2B/" class="md-nav__link">
-        73 C++的dynamic_cast
+        
+  
+  <span class="md-ellipsis">
+    73 C++的dynamic_cast
+  </span>
+  
+
       </a>
     </li>
   
@@ -1354,14 +1722,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../74%20BENCHMARKING%20in%20C%2B%2B%20%28how%20to%20measure%20performance%29/" class="md-nav__link">
-        74 C++的基准测试
+        
+  
+  <span class="md-ellipsis">
+    74 C++的基准测试
+  </span>
+  
+
       </a>
     </li>
   
@@ -1369,14 +1742,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../75%20STRUCTURED%20BINDINGS%20in%20C%2B%2B/" class="md-nav__link">
-        75 C++的结构化绑定
+        
+  
+  <span class="md-ellipsis">
+    75 C++的结构化绑定
+  </span>
+  
+
       </a>
     </li>
   
@@ -1384,14 +1762,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../76%20How%20to%20Deal%20with%20OPTIONAL%20Data%20in%20C%2B%2B/" class="md-nav__link">
-        76 如何处理OPTIONAL数据
+        
+  
+  <span class="md-ellipsis">
+    76 如何处理OPTIONAL数据
+  </span>
+  
+
       </a>
     </li>
   
@@ -1399,14 +1782,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../77%20Multiple%20TYPES%20of%20Data%20in%20a%20SINGLE%20VARIABLE%20in%20C%2B%2B/" class="md-nav__link">
-        77 单一变量存放多类型的数据
+        
+  
+  <span class="md-ellipsis">
+    77 单一变量存放多类型的数据
+  </span>
+  
+
       </a>
     </li>
   
@@ -1414,14 +1802,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../78%20How%20to%20store%20ANY%20data%20in%20C%2B%2B/" class="md-nav__link">
-        78 如何存储任意类型的数据
+        
+  
+  <span class="md-ellipsis">
+    78 如何存储任意类型的数据
+  </span>
+  
+
       </a>
     </li>
   
@@ -1429,14 +1822,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../79%20How%20to%20make%20C%2B%2B%20run%20FASTER%20%28with%20std-async%29/" class="md-nav__link">
-        79 如何让C++运行得更快
+        
+  
+  <span class="md-ellipsis">
+    79 如何让C++运行得更快
+  </span>
+  
+
       </a>
     </li>
   
@@ -1444,14 +1842,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../80%20How%20to%20make%20your%20STRINGS%20faster/" class="md-nav__link">
-        80 如何让C++字符串更快
+        
+  
+  <span class="md-ellipsis">
+    80 如何让C++字符串更快
+  </span>
+  
+
       </a>
     </li>
   
@@ -1459,14 +1862,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../81%20VISUAL%20BENCHMARKING%20in%20C%2B%2B/" class="md-nav__link">
-        81 C++的可视化基准测试
+        
+  
+  <span class="md-ellipsis">
+    81 C++的可视化基准测试
+  </span>
+  
+
       </a>
     </li>
   
@@ -1474,14 +1882,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../82%20SINGLETONS%20in%20C%2B%2B/" class="md-nav__link">
-        82 C++的单例模式
+        
+  
+  <span class="md-ellipsis">
+    82 C++的单例模式
+  </span>
+  
+
       </a>
     </li>
   
@@ -1489,14 +1902,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../83%20Small%20String%20Optimization%20in%20C%2B%2B/" class="md-nav__link">
-        83 C++的小字符串优化
+        
+  
+  <span class="md-ellipsis">
+    83 C++的小字符串优化
+  </span>
+  
+
       </a>
     </li>
   
@@ -1504,14 +1922,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../84%20Track%20MEMORY%20ALLOCATIONS%20the%20Easy%20way%20in%20C%2B%2B/" class="md-nav__link">
-        84 跟踪内存分配的简单方法
+        
+  
+  <span class="md-ellipsis">
+    84 跟踪内存分配的简单方法
+  </span>
+  
+
       </a>
     </li>
   
@@ -1519,14 +1942,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../85%20lvalues%20and%20rvalues%20in%20C%2B%2B/" class="md-nav__link">
-        85 C++的左值与右值
+        
+  
+  <span class="md-ellipsis">
+    85 C++的左值与右值
+  </span>
+  
+
       </a>
     </li>
   
@@ -1534,14 +1962,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../86%20Continuous%20Integration%20in%20C%2B%2B/" class="md-nav__link">
-        86 C++持续集成
+        
+  
+  <span class="md-ellipsis">
+    86 C++持续集成
+  </span>
+  
+
       </a>
     </li>
   
@@ -1549,14 +1982,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../87%20Static%20Analysis%20in%20C%2B%2B/" class="md-nav__link">
-        87 C++ 静态分析
+        
+  
+  <span class="md-ellipsis">
+    87 C++ 静态分析
+  </span>
+  
+
       </a>
     </li>
   
@@ -1564,14 +2002,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../88%20Argument%20Evaluation%20Order%20in%20C%2B%2B/" class="md-nav__link">
-        88 C++的参数计算顺序
+        
+  
+  <span class="md-ellipsis">
+    88 C++的参数计算顺序
+  </span>
+  
+
       </a>
     </li>
   
@@ -1579,14 +2022,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../89%20Move%20Semantics%20in%20C%2B%2B/" class="md-nav__link">
-        89 C++移动语义
+        
+  
+  <span class="md-ellipsis">
+    89 C++移动语义
+  </span>
+  
+
       </a>
     </li>
   
@@ -1594,14 +2042,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../90%20std--move%20and%20the%20Move%20Assignment%20Operator%20in%20C%2B%2B/" class="md-nav__link">
-        90 std::move与移动赋值操作符
+        
+  
+  <span class="md-ellipsis">
+    90 std::move与移动赋值操作符
+  </span>
+  
+
       </a>
     </li>
   
@@ -1620,7 +2073,6 @@
                   <div class="md-sidebar__inner">
                     
 
-
 <nav class="md-nav md-nav--secondary" aria-label="目录">
   
   
@@ -1634,7 +2086,9 @@
       
         <li class="md-nav__item">
   <a href="#1" class="md-nav__link">
-    1. 怎么返回不同类型？
+    <span class="md-ellipsis">
+      1. 怎么返回不同类型？
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="1. 怎么返回不同类型？">
@@ -1642,28 +2096,36 @@
         
           <li class="md-nav__item">
   <a href="#1_1" class="md-nav__link">
-    1. 指针和引用
+    <span class="md-ellipsis">
+      1. 指针和引用
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#2-arrayvector" class="md-nav__link">
-    2. array和vector
+    <span class="md-ellipsis">
+      2. array和vector
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#3-tuplepair" class="md-nav__link">
-    3. tuple和pair
+    <span class="md-ellipsis">
+      3. tuple和pair
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#4-struct" class="md-nav__link">
-    4. struct
+    <span class="md-ellipsis">
+      4. struct
+    </span>
   </a>
   
 </li>
@@ -1681,18 +2143,19 @@
               </div>
             
           
-          <div class="md-content" data-md-component="content">
-            <article class="md-content__inner md-typeset">
-              
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
                 
-                  <a href="https://github.com/Nagi-ovo/Cherno-CPP-Notes/edit/master/docs/51-100/52 How to Deal with Multiple Return Values in C++.md" title="编辑此页" class="md-content__button md-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
-                  </a>
-                
-                
-                  <h1>52 C++中如何处理多返回值</h1>
-                
-                <p>C++中如何处理多返回值
+                  
+
+  
+  
+
+
+  <h1>52 C++中如何处理多返回值</h1>
+
+<p>C++中如何处理多返回值
 本课将讨论什么是<em>tuple</em>（元组），什么是<em>pair</em>（键值对），如何在C++中处理多个返回类型。</p>
 <h2 id="1">1. 怎么返回不同类型？</h2>
 <p>我们有一个函数，这个函数需要返回两个字符串，或者要返回一个<em>integer</em>+一个<em>string</em>，而C++的默认情况下函数只能返回一种类型，一个特定的变量，这种情况下就会遇到麻烦。
@@ -1804,74 +2267,47 @@
 <a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
 <a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a><span class="p">}</span>
 </code></pre></div>
-                
-              
-              
-                
 
 
-              
-            </article>
-          </div>
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
-          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
-            Back to top
-          </a>
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
         
       </main>
       
-        
-<footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-        
-        <a href="../51%20Making%20and%20Working%20with%20Libraries%20in%20C%2B%2B%20%28Multiple%20Projects%20in%20VS%29/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 51 C++中创建与使用库" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                上一页
-              </span>
-              51 C++中创建与使用库
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../53%20Templates%20in%20C%2B%2B/" class="md-footer__link md-footer__link--next" aria-label="下一页: 53 C++的模板" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                下一页
-              </span>
-              53 C++的模板
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
+        <footer class="md-footer">
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-        
-          Made with
-          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-            Material for MkDocs
-          </a>
-        
-        
-      </div>
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
       
     </div>
   </div>
@@ -1881,10 +2317,12 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["header.autohide", "navigation.tracking", "navigation.top", "search.highlight", "search.share", "search.suggest", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.fcfe8b6d.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.b1047164.min.js"></script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["header.autohide", "navigation.tracking", "navigation.top", "search.highlight", "search.share", "search.suggest", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.60a45f97.min.js"></script>
       
         <script src="../../javascripts/katex.js"></script>
       
