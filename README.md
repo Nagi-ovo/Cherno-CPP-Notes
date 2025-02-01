@@ -1,6 +1,6 @@
 # 📘 The Cherno's C++ Course Notes 📘
 
-[在线阅读](https://nagi.fun/Cherno-CPP-Notes/) | [English Version Online Reading](https://nagi.fun/Cherno-CPP-Notes/en/)
+[在线阅读](https://nagi.fun/Cherno-CPP-Notes/) | [English Version Online Reading (Translated by DeepSeek-V3)](https://nagi.fun/Cherno-CPP-Notes/en/)
 
 欢迎纠错，你可以随时发起 Issue or PR 🥰
 
