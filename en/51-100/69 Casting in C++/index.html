@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#1-casting" class="md-skip">
+        <a href="#1-what-is-casting" class="md-skip">
           Skip to content
         </a>
       
@@ -1584,41 +1584,41 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-casting" class="md-nav__link">
+  <a href="#1-what-is-casting" class="md-nav__link">
     <span class="md-ellipsis">
-      1. 什么是 casting
+      1. What is casting
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
+  <a href="#2-type-casting" class="md-nav__link">
     <span class="md-ellipsis">
-      2. 类型转换
+      2. Type Casting
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="2. 类型转换">
+    <nav class="md-nav" aria-label="2. Type Casting">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#c" class="md-nav__link">
+  <a href="#c-style-type-casting" class="md-nav__link">
     <span class="md-ellipsis">
-      C 语言风格类型转换
+      C-Style Type Casting
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#c_1" class="md-nav__link">
+  <a href="#c-style-type-casting_1" class="md-nav__link">
     <span class="md-ellipsis">
-      C++风格类型转换
+      C++-Style Type Casting
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="C++风格类型转换">
+    <nav class="md-nav" aria-label="C++-Style Type Casting">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1632,9 +1632,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#cast" class="md-nav__link">
+  <a href="#so-why-have-so-many-casts" class="md-nav__link">
     <span class="md-ellipsis">
-      所以为什么要搞这么多 cast ？
+      So why have so many casts?
     </span>
   </a>
   
@@ -2117,41 +2117,41 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-casting" class="md-nav__link">
+  <a href="#1-what-is-casting" class="md-nav__link">
     <span class="md-ellipsis">
-      1. 什么是 casting
+      1. What is casting
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
+  <a href="#2-type-casting" class="md-nav__link">
     <span class="md-ellipsis">
-      2. 类型转换
+      2. Type Casting
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="2. 类型转换">
+    <nav class="md-nav" aria-label="2. Type Casting">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#c" class="md-nav__link">
+  <a href="#c-style-type-casting" class="md-nav__link">
     <span class="md-ellipsis">
-      C 语言风格类型转换
+      C-Style Type Casting
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#c_1" class="md-nav__link">
+  <a href="#c-style-type-casting_1" class="md-nav__link">
     <span class="md-ellipsis">
-      C++风格类型转换
+      C++-Style Type Casting
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="C++风格类型转换">
+    <nav class="md-nav" aria-label="C++-Style Type Casting">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -2165,9 +2165,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#cast" class="md-nav__link">
+  <a href="#so-why-have-so-many-casts" class="md-nav__link">
     <span class="md-ellipsis">
-      所以为什么要搞这么多 cast ？
+      So why have so many casts?
     </span>
   </a>
   
@@ -2217,54 +2217,54 @@
 
   <h1>69 Type Casting in C++</h1>
 
-<p>尽管之前实际上使用过类型转换，但没有讨论过这一点，这是一种需要联系并通过经验来学习的东西，而不是别人告诉你它是如何运作的，在这个主题上只有理论而没有实践对你的帮助不会多大。</p>
-<h2 id="1-casting">1. 什么是 casting</h2>
-<p>这里的<em>casting</em>（转换）是指类型转换，或者说是必须在 C++可用类型系统中进行的类型转换。</p>
-<p>C++是一门强类型语言，意味着存在一个类型系统，而且类型是强制的。（见<a href="../66%20Type%20Punning%20in%20C%2B%2B/#^4d9dfe">66 课：类型双关</a>）
-如果我把某物设为 int，那就不能突然把它当做 double 或者 float，反过来也一样。我必须坚持原有的类型，除非有一个简单的<strong>隐式转换</strong>（<a href="40%20Implicit%20Conversion%20and%20the%20Explicit%20Keyword%20in%20C++.md#^cde452">见 40 课：隐式和显式</a>），这意味着 C++知道如何在这两种类型之间转换，并且没有数据损失，这就是隐式转换；或者是有一个<strong>显示转换</strong>（<a href="../66%20Type%20Punning%20in%20C%2B%2B/#^f3904d">见 66 课：类型双关</a>），告诉 C++你需要把这个类型转换成目标类型，本章将正是介绍<strong>强制转换</strong>的含义，并了解如何使用它。</p>
-<h2 id="2">2. 类型转换</h2>
-<p>我们执行类型转换的方法，特别是显式类型转换，分为两种方式（个人理解），有 C 语言风格和 C++风格的。</p>
-<h3 id="c">C 语言风格类型转换</h3>
+<p>Even though type casting has been used before, it hasn't been discussed yet. It's something that needs to be connected and learned through experience, rather than just being told how it works. Having only theory without practice on this topic won't help much.</p>
+<h2 id="1-what-is-casting">1. What is casting</h2>
+<p>Here, <em>casting</em> refers to type conversion, or more precisely, type conversions that must be performed within C++'s available type system.</p>
+<p>C++ is a strongly-typed language, meaning there is a type system, and types are enforced. (See <a href="../66%20Type%20Punning%20in%20C%2B%2B/#^4d9dfe">Lesson 66: Type Punning in C++</a>)
+If I set something as an <code>int</code>, I can't suddenly treat it as a <code>double</code> or <code>float</code>, and vice versa. I must stick to the original type, unless there is a simple <strong>implicit conversion</strong> (See <a href="40%20Implicit%20Conversion%20and%20the%20Explicit%20Keyword%20in%20C++.md#^cde452">Lesson 40: Implicit Conversion and the Explicit Keyword in C++</a>), meaning C++ knows how to convert between these two types without data loss - that's implicit conversion; or there is an <strong>explicit conversion</strong> (See <a href="../66%20Type%20Punning%20in%20C%2B%2B/#^f3904d">Lesson 66: Type Punning in C++</a>), telling C++ you need to convert this type to the target type. This chapter will formally introduce the meaning of <strong>casting</strong> and explain how to use it.</p>
+<h2 id="2-type-casting">2. Type Casting</h2>
+<p>The methods we use to perform type casting, especially explicit type casting, can be divided into two styles (personal understanding): C-style and C++-style.</p>
+<h3 id="c-style-type-casting">C-Style Type Casting</h3>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kt">double</span><span class="w"> </span><span class="n">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">a</span><span class="p">;</span><span class="w"> </span><span class="c1">// 这是一种隐式转换，很容易做到而且没有数据丢失</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kt">double</span><span class="w"> </span><span class="n">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">a</span><span class="p">;</span><span class="w"> </span><span class="c1">// This is an implicit conversion, easy to do and no data loss</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
 <a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="kt">double</span><span class="w"> </span><span class="n">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">5.25</span><span class="p">;</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">value</span><span class="p">;</span><span class="w">  </span><span class="c1">// 这也被视为是隐式转换，因为不需要具体说明要把这个类型转换成哪个类型</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">value</span><span class="p">;</span><span class="w">  </span><span class="c1">// This is also considered an implicit conversion because it&#39;s not necessary to specify the target type</span>
 <a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="c1">// 要想显式转换，可以像下行一样</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="c1">// To perform an explicit conversion, you can write it like the line below</span>
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">value</span><span class="p">;</span><span class="w"> </span><span class="c1">// 当然这种情况下它可以隐式地做到，但是我们正在讨论强制转换，所以先这样写</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">value</span><span class="p">;</span><span class="w"> </span><span class="c1">// Of course, it could be done implicitly in this case, but we are discussing casting, so let&#39;s write it this way for now.</span>
 </code></pre></div>
-<p>举一个更好的例子：</p>
+<p>A better example:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span>
 <a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="p">{</span>
 <a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="kt">double</span><span class="w"> </span><span class="n">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">5.25</span><span class="p">;</span>
 <a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="kt">double</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">value</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">5.3</span><span class="p">;</span>
-<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span><span class="w">   </span><span class="c1">// 显然，这里输出10.55</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span><span class="w">   </span><span class="c1">// Obviously, this outputs 10.55</span>
 <a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>
 <a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">cin</span><span class="p">.</span><span class="n">get</span><span class="p">();</span>
 <a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="p">}</span>
 </code></pre></div>
-<p>如果我们将 value 转换成<code>int</code>类型，那就会省去小数部分，最后就变成 <span class="arithmatex">\(5+5.3=10.3\)</span> 了：</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kt">double</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kt">int</span><span class="p">(</span><span class="n">value</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">5.3</span><span class="p">;</span><span class="w">  </span><span class="c1">// 10.3 而不是 10.55</span>
+<p>If we cast <code>value</code> to an <code>int</code> type, the fractional part will be discarded, resulting in <span class="arithmatex">\(5 + 5.3 = 10.3\)</span>:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kt">double</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kt">int</span><span class="p">(</span><span class="n">value</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">5.3</span><span class="p">;</span><span class="w">  </span><span class="c1">// 10.3 instead of 10.55</span>
 </code></pre></div>
-<p>这里使用的技术叫做<strong>C 语言风格类型转换</strong>，因为它在圆括号中指定了要强制转换的类型，然后是我们要强制转换的变量。
-还可以整个括起来，截取整体的整数部分：</p>
+<p>The technique used here is called <strong>C-style type casting</strong>, because it specifies the type to cast to in parentheses, followed by the variable we want to cast.
+You can also enclose the entire expression to truncate the whole result to an integer:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kt">double</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kt">int</span><span class="p">(</span><span class="n">value</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">5.3</span><span class="p">);</span><span class="w">  </span><span class="c1">// 10</span>
 </code></pre></div>
-<h3 id="c_1">C++风格类型转换</h3>
+<h3 id="c-style-type-casting_1">C++-Style Type Casting</h3>
 <h4 id="1-static_cast">1. static_cast</h4>
-<p>用 C++的方式做这个，要使用 C++的<code>cast</code>：</p>
+<p>To do this the C++ way, use C++ <code>cast</code> operators:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kt">double</span><span class="w"> </span><span class="n">s</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">static_cast</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">(</span><span class="n">value</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">5.3</span><span class="p">;</span>
 </code></pre></div>
-<p>C++风格的转换有多种，一个是<code>static_cast</code>，还有<code>reinterpret_cast</code>、<code>dynamic_cast</code>、<code>const_cast</code>，共这四种主要的 cast。它们并不能做任何 C 风格类型转换做不到的事情，这并不是添加新功能，只是添加了一些<em>syntax sugar</em>。</p>
-<p>比如<code>dynamic_cast</code>，它会实际执行一个检查，如果转换不成功返回 NULL，所以这做了额外的事情，会降低运行速度。但在大多数情况下，C++风格类型转换并不做额外的事情，它们只是一些代码中的英文单词。
-例如<code>static_cast</code>，意思是静态类型转换，在静态类型转换的情况下，还会做一些其它的编译时检查，检查这种转换是否可能。
-<code>reinterpret_cast</code>也是一样，就像是把我们说过的<strong>类型双关</strong>用英语表达出来一样，意思就是我要把这段内存重新解释成其它东西.
-<code>const_cast</code>，移除或者添加变量的 const 限定。</p>
-<h5 id="cast">所以为什么要搞这么多 cast ？</h5>
-<p>是因为除了可能收到上面说的那些编译时的检查外，还可以方便我们从代码库中搜索它们。如果我想看到我的类型转换都在哪儿，也许我有性能问题而不想用<code>dynamic_cast</code>，我可以直接搜索这个词，如果用的是 C 语言风格的 cast，就很难去搜索它，所以它对程序员的阅读和编写代码都有帮助。
-而且它也能帮助我们减少在尝试强制转换时，可能意外犯下的错误，比如类型不兼容。</p>
+<p>There are several C++-style casts: <code>static_cast</code>, <code>reinterpret_cast</code>, <code>dynamic_cast</code>, and <code>const_cast</code>. These are the four main casts. They don't do anything that C-style casts can't do; it's not about adding new functionality, but rather adding some <em>syntax sugar</em>.</p>
+<p>For example, <code>dynamic_cast</code> actually performs a check and returns NULL if the conversion fails, so it does extra work and can slow down execution. But in most cases, C++-style casts don't do anything extra; they are just English words in your code.
+For instance, <code>static_cast</code> means static type conversion, and in the case of static casting, it also performs other compile-time checks to see if such a conversion is possible.
+<code>reinterpret_cast</code> is similar; it's like expressing <strong>type punning</strong> in English, meaning "I want to reinterpret this memory as something else."
+<code>const_cast</code> removes or adds the const qualifier to a variable.</p>
+<h5 id="so-why-have-so-many-casts">So why have so many casts?</h5>
+<p>Besides potentially receiving the compile-time checks mentioned above, it also makes it easier to search for them in your codebase. If I want to see where all my type casts are, perhaps I have performance issues and don't want to use <code>dynamic_cast</code>, I can simply search for that term. If C-style casts were used, it would be much harder to search for them. So it helps both in reading and writing code for the programmer.
+It also helps us reduce the chance of accidentally making mistakes when attempting casts, such as with incompatible types.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="k">class</span><span class="w"> </span><span class="nc">AnotherClass</span>
 <a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="p">{</span>
 <a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="k">public</span><span class="o">:</span>
@@ -2282,13 +2282,13 @@
 <a id="__codelineno-5-15" name="__codelineno-5-15" href="#__codelineno-5-15"></a><span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">cin</span><span class="p">.</span><span class="n">get</span><span class="p">();</span>
 <a id="__codelineno-5-16" name="__codelineno-5-16" href="#__codelineno-5-16"></a><span class="p">}</span>
 </code></pre></div>
-<p>可以看到这是一个无效的类型转换
+<p>You can see this is an invalid type conversion.
 <img alt="" src="../storage%20bag/Pasted%20image%2020230727161515.png" /></p>
-<p>对于类型双关，可以用<code>interpret_cast</code>，这里我们将 value 指针处的数据重新解释为 AnotherClass 实例的数据：</p>
+<p>For type punning, you can use <code>reinterpret_cast</code>. Here we reinterpret the data at the <code>value</code> pointer as data for an <code>AnotherClass</code> instance:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kt">double</span><span class="w"> </span><span class="n">s</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">reinterpret_cast</span><span class="o">&lt;</span><span class="n">AnotherClass</span><span class="o">*&gt;</span><span class="p">(</span><span class="o">&amp;</span><span class="n">value</span><span class="p">);</span>
 </code></pre></div>
-<p>但是关键是用<code>static_cast</code>增加了编译时检查，如果你用 C 风格的转换它会默认地做<code>interpret_cast</code>会做的事情。</p>
-<p>实际学习这些的最好方法就是实践，尝试构建一个使用这些 cast 的示例。</p>
+<p>But the key point is that <code>static_cast</code> adds compile-time checks. If you use a C-style cast, it would default to doing what <code>reinterpret_cast</code> does.</p>
+<p>The best way to actually learn these is through practice, trying to build examples that use these casts.</p>
 <h4 id="2-dynamic_cast">2. dynamic_cast</h4>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="k">class</span><span class="w"> </span><span class="nc">Base</span>
 <a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="p">{</span>
@@ -2314,23 +2314,23 @@
 <a id="__codelineno-7-22" name="__codelineno-7-22" href="#__codelineno-7-22"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span>
 <a id="__codelineno-7-23" name="__codelineno-7-23" href="#__codelineno-7-23"></a><span class="p">{</span>
 <a id="__codelineno-7-24" name="__codelineno-7-24" href="#__codelineno-7-24"></a><span class="w">    </span><span class="n">Derived</span><span class="o">*</span><span class="w"> </span><span class="n">derived</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Derived</span><span class="p">();</span>
-<a id="__codelineno-7-25" name="__codelineno-7-25" href="#__codelineno-7-25"></a><span class="w">    </span><span class="n">Base</span><span class="o">*</span><span class="w"> </span><span class="n">base</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">derived</span><span class="p">;</span><span class="w">   </span><span class="c1">// 将derived转换成Base类型</span>
+<a id="__codelineno-7-25" name="__codelineno-7-25" href="#__codelineno-7-25"></a><span class="w">    </span><span class="n">Base</span><span class="o">*</span><span class="w"> </span><span class="n">base</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">derived</span><span class="p">;</span><span class="w">   </span><span class="c1">// Convert derived to Base type</span>
 <a id="__codelineno-7-26" name="__codelineno-7-26" href="#__codelineno-7-26"></a>
 <a id="__codelineno-7-27" name="__codelineno-7-27" href="#__codelineno-7-27"></a><span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">cin</span><span class="p">.</span><span class="n">get</span><span class="p">();</span>
 <a id="__codelineno-7-28" name="__codelineno-7-28" href="#__codelineno-7-28"></a><span class="p">}</span>
 </code></pre></div>
-<p>有一个问题：这里我有一个 Base 指针，它是一个 Derived 类的实例呢还是 AnotherClass 类的实例呢？它们两个都是从 Base 类拓展来的。</p>
+<p>There's a question: Here I have a Base pointer. Is it an instance of the Derived class or the AnotherClass class? Both of them extend from the Base class.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="n">AnotherClass</span><span class="o">*</span><span class="w"> </span><span class="n">ac</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">dynamic_cast</span><span class="o">&lt;</span><span class="n">AnotherClass</span><span class="o">*&gt;</span><span class="p">(</span><span class="n">base</span><span class="p">);</span>
 </code></pre></div>
-<p>如果我用<code>dynamic_cast</code>，它不仅是问这个问题，而且它会尝试转换，如果转换失败还会做一些事情。</p>
+<p>If I use <code>dynamic_cast</code>, it not only asks this question but also attempts the conversion and does something if the conversion fails.</p>
 <p><img alt="" src="../storage%20bag/Pasted%20image%2020230727163407.png" /></p>
-<p>这里的<code>dynamic_cast</code>试图将基类指针<code>base</code>转换为<code>AnotherClass</code>指针。然而，原始的<code>base</code>指针实际上是指向一个<code>Derived</code>对象的，而非<code>AnotherClass</code>对象。这两个类（<code>Derived</code>和<code>AnotherClass</code>）都是从<code>Base</code>类派生的，但它们是完全不同的类，无法互相转换。</p>
-<p><code>dynamic_cast</code>在运行时执行类型检查。如果类型转换是安全的，那么它就执行转换，否则它返回 null。在这个例子中，因为<code>base</code>指针实际上是指向<code>Derived</code>对象，而不是<code>AnotherClass</code>对象，所以<code>dynamic_cast</code>判断这个转换是不安全的，于是返回 null。</p>
-<p>这种类型检查的能力是<code>dynamic_cast</code>的一个重要特性，它可以在运行时保护我们免于执行不安全的类型转换。这就是为什么<code>ac</code>是 null 的原因。</p>
-<p>改为 Derived 类后，这个指针就是有效的了，因为这个转换是成功的。</p>
+<p>Here, <code>dynamic_cast</code> is trying to convert the base class pointer <code>base</code> to an <code>AnotherClass</code> pointer. However, the original <code>base</code> pointer actually points to a <code>Derived</code> object, not an <code>AnotherClass</code> object. These two classes (<code>Derived</code> and <code>AnotherClass</code>) are both derived from the <code>Base</code> class, but they are completely different classes and cannot be converted to each other.</p>
+<p><code>dynamic_cast</code> performs a type check at runtime. If the type conversion is safe, it performs the conversion; otherwise, it returns null. In this example, because the <code>base</code> pointer actually points to a <code>Derived</code> object, not an <code>AnotherClass</code> object, <code>dynamic_cast</code> judges this conversion to be unsafe and thus returns null.</p>
+<p>This ability for type checking is an important feature of <code>dynamic_cast</code>; it protects us from performing unsafe type conversions at runtime. This is why <code>ac</code> is null.</p>
+<p>If we change it to the Derived class, the pointer becomes valid because the conversion is successful.</p>
 <p><img alt="" src="../storage%20bag/Pasted%20image%2020230727163921.png" /></p>
-<p>这与运行时类型信息<em>RTTI</em>(runtime type information)紧密联系。</p>
-<p>你需要知道这些类型转换操作符对你来说是一种简化类型转换的方法，可能会让转换更可靠，因为它会做编译时检查，而<code>dynamic_cast</code>会做运行时检查。通过使用这样的强制转换操作符，你会得到更坚实的代码。</p>
+<p>This is closely related to <em>RTTI</em> (Runtime Type Information).</p>
+<p>You need to know that these casting operators are a way to simplify type conversions for you, potentially making conversions more reliable because they perform compile-time checks, and <code>dynamic_cast</code> performs runtime checks. By using such casting operators, you get more robust code.</p>
 
 
 
